@@ -56,10 +56,10 @@
 				<h1>Hire me to be a part of your growing team</h1>
 				<p>Let's work together to enhance your company's digital offerings (and maximize your revenue in the process). Whether you have a seasoned Developer team of 20 or are a start-up looking to build your team, I have the right knowledge and positive attitude to integrate well into any organization.</p>
 				<div class="button-wrap multi">
-					<NuxtLink to="#reach-out" class="button">
+					<NuxtLink to="#reach-out" class="button alt">
 						<span>Reach Out Now</span>
 					</NuxtLink>
-					<NuxtLink to="/resume-james-frazier.pdf" external target="_blank" class="button">
+					<NuxtLink to="/resume-james-frazier.pdf" external target="_blank" class="button alt">
 						<span>View Resume</span>
 					</NuxtLink>
 				</div>

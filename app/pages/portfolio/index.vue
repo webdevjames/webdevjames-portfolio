@@ -6,13 +6,13 @@
 		<div class="container">
 			<div class="container-inner">
 				<p class="subheading">Portfolio</p>
-				<h1>View projects that highlight your company's potential</h1>
-				<p>This is collection of featured web and HTML email development projects that span over a decade. This is not an exhaustive list. To reference all projects, please refer to my LinkedIn profile.</p>
+				<h1>A collection of my favorite projects</h1>
+				<p>This is collection of featured web and HTML email development projects that span over a decade. This is not an exhaustive list. To reference more projects, please refer to my LinkedIn profile.</p>
 				<div class="button-wrap multi">
-					<NuxtLink to="/contact" target="_self" class="button">
+					<NuxtLink to="/contact" target="_self" class="button alt">
 						<span>Hire Me</span>
 					</NuxtLink>
-					<NuxtLink to="https://www.linkedin.com/in/jamesfrazierdesign/details/projects/" target="_blank" class="button">
+					<NuxtLink to="https://www.linkedin.com/in/jamesfrazierdesign/details/projects/" target="_blank" class="button alt">
 						<span>LinkedIn</span>
 					</NuxtLink>
 				</div>

@@ -131,12 +131,32 @@ body {
 				@apply left-0;
 			}
 		}
+
+		&.alt {
+			@apply bg-transparent border-2 border-white;
+
+			&:before {
+				content: "";
+				@apply absolute -left-full top-0 w-full h-full transition-all duration-500 bg-linear-to-r from-cyan-500 to-blue-500 rounded-3xl z-1;
+			}
+
+			&:hover {
+				&:before {
+					content: "";
+					@apply left-0;
+				}
+			}
+		}
 	}
 }
 
 /* Intro title block on internal pages */
-.section-intro .container .container-inner {
-	@apply pt-30 md:pt-40;
+.section-intro {
+	@apply bg-linear-to-b from-cyan-500 to-blue-500;
+
+	.container .container-inner {
+		@apply pt-30 md:pt-35;
+	}
 }
 
 /* Specialty */

@@ -25,6 +25,14 @@
 			link: "https://campuslogic.com/",
 		},
 		{
+			image: "/logo-liberty-wildlife.svg",
+			company: "Liberty Wildlife",
+			quote:
+				"When updating our old website, we chose James as he understood our mission well.  He spent early years as a volunteer.  Seeing how a person volunteers is a great window into how they work!  That was huge in our seeking him for help.  We couldn’t have been more pleased.  He listened to our needs and desires.  He kindly guided us when we went terribly astray.  And the end result was better than we could have imagined.  Our public finds our site very accessible.  Anything that needed adapting was done quickly with all of the sage advice needed to help some pretty novice customers. And, he is readably available when needed.  Responses are quick and decisive.  Overall, we are very pleased with James and the product he delivered to us.",
+			author: "Megan Mosby",
+			link: "https://libertywildlife.org/",
+		},
+		{
 			image: "/logo-laughing-pony-rescue.svg",
 			company: "Laughing Pony Rescue",
 			quote: "Laughing Pony rescue is a 501c3 and has been operating for over 20 years. We have saved over a thousand equines and farm animals from slaughter. What we didn't have was an engaging website that would attract new donors and tell our story in a more impactful way. We looked at several website developers and found that James Frazier had the talent and vision that we needed. Since James became involved, our donations have increased and our message is resonating throughout the community. I would strongly recommend talking with James to see if he can help you like he has helped us.",
@@ -38,7 +46,7 @@
 		<div class="container">
 			<div class="container-inner text-left">
 				<p class="subheading">About</p>
-				<h1>Nice to meet you - I'm James Frazier</h1>
+				<h1>Nice to meet you... <br class="hide" />I'm James Frazier</h1>
 				<p>Get to know about my professional experience, a taste of my personal life, and how we would make a great team.</p>
 			</div>
 		</div>
@@ -73,7 +81,7 @@
 	</section>
 	<section class="section-main">
 		<div class="container">
-			<div class="container-inner">
+			<div class="container-inner pb-0!">
 				<ClientOnly>
 					<swiper-container ref="containerRef">
 						<swiper-slide v-for="(slide, idx) in slides" :key="idx">
@@ -103,6 +111,88 @@
 				<button @click="swiper.prev()">Prev</button>
 				<!-- Go forward one slide -->
 				<button @click="swiper.next()">Next</button>
+			</div>
+		</div>
+	</section>
+	<section class="section-main contained">
+		<div class="container">
+			<div class="container-inner text-left pb-0!">
+				<h2>What makes me a great fit for your team?</h2>
+				<p>Web development is my primary objective, but isn't the extent of what my agency experience brings to the table. Here are some other aspects of digital marketing that will make our partnership worthwhile:</p>
+				<ul>
+					<li class="grid grid-cols-[20px_1fr] gap-3">
+						<div class="flex items-start justify-start mt-1"><Icon name="iconamoon:check-bold" style="color: var(--color-blue-500) !important" /></div>
+						<span>Asset manipulation and optimization for web (using Photoshop and Illustator)</span>
+					</li>
+					<li class="grid grid-cols-[20px_1fr] gap-3">
+						<div class="flex items-start justify-start mt-1"><Icon name="iconamoon:check-bold" style="color: var(--color-blue-500) !important" /></div>
+						<span>Asset collection from Figma, Adobe XD and InDesign files</span>
+					</li>
+					<li class="grid grid-cols-[20px_1fr] gap-3">
+						<div class="flex items-start justify-start mt-1"><Icon name="iconamoon:check-bold" style="color: var(--color-blue-500) !important" /></div>
+						<span>AI prompting, integration and for boilerplate complex and </span>
+					</li>
+					<li class="grid grid-cols-[20px_1fr] gap-3">
+						<div class="flex items-start justify-start mt-1"><Icon name="iconamoon:check-bold" style="color: var(--color-blue-500) !important" /></div>
+						<span>Implemention of seach engine optimization tools and data / SCHEMA</span>
+					</li>
+					<li class="grid grid-cols-[20px_1fr] gap-3">
+						<div class="flex items-start justify-start mt-1"><Icon name="iconamoon:check-bold" style="color: var(--color-blue-500) !important" /></div>
+						<span>Effective collaboration with design, UI/UX and project management teams</span>
+					</li>
+					<li class="grid grid-cols-[20px_1fr] gap-3">
+						<div class="flex items-start justify-start mt-1"><Icon name="iconamoon:check-bold" style="color: var(--color-blue-500) !important" /></div>
+						<span>Client training and documentation creation</span>
+					</li>
+					<li class="grid grid-cols-[20px_1fr] gap-3">
+						<div class="flex items-start justify-start mt-1"><Icon name="iconamoon:check-bold" style="color: var(--color-blue-500) !important" /></div>
+						<span>HTML email template development and integration with popular email management platforms (MailChimp, Hubspot, Constant Contact, Campaign Monitor)</span>
+					</li>
+					<li class="grid grid-cols-[20px_1fr] gap-3">
+						<div class="flex items-start justify-start mt-1"><Icon name="iconamoon:check-bold" style="color: var(--color-blue-500) !important" /></div>
+						<span>WordPress security and maintenance</span>
+					</li>
+					<li class="grid grid-cols-[20px_1fr] gap-3">
+						<div class="flex items-start justify-start mt-1"><Icon name="iconamoon:check-bold" style="color: var(--color-blue-500) !important" /></div>
+						<span>Popular hosting setup and migration (Vercel, cPanel, Plesk, Pantheon, WP Engine)</span>
+					</li>
+					<li class="grid grid-cols-[20px_1fr] gap-3">
+						<div class="flex items-start justify-start mt-1"><Icon name="iconamoon:check-bold" style="color: var(--color-blue-500) !important" /></div>
+						<span>Standardized local development methods (MAMP Pro, Sequel Pro, Local, Webpack, Sass, Tailwind CSS, Bootstrap)</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section class="section-main contained">
+		<div class="container">
+			<div class="container-inner text-left pb-0!">
+				<h2>My personal life</h2>
+				<p>I absolutely love web development, so I never actually have to work. I built my first website way back in 2010 and I was hooked. I left my job in sales/customer service and have never looked back. Since then, I have been developing for agencies and freelancing for a variety of clientele.</p>
+			</div>
+		</div>
+	</section>
+	<section class="section-main">
+		<div class="container">
+			<div class="container-inner pt-0!">
+				<div class="info-blocks mt-4">
+					<div class="info-block text-left">
+						<h4>Rooted in my <span class="text-blue-500!">faith</span></h4>
+						<p>My faith in Christ guides my values and work ethic (Colossians 3:23). I strive to provide my best in every project - which not only honors God, but honors those I serve. (Ephesians 6:7-8)</p>
+					</div>
+					<div class="info-block text-left">
+						<h4>Spending time with my <span class="text-blue-500!">family</span></h4>
+						<p>I enjoy spending time with my wife, three kids and our dog Milo. When we're not hanging out at home in the pool or playing video games, we're at the Phoenix Zoo, going on a day trip up north to Sedona or Jerome or making play dates with friends and their families.</p>
+					</div>
+					<div class="info-block text-left">
+						<h4>Playing <span class="text-blue-500!">mechanic</span></h4>
+						<p>I'm always working on modifications for my own car (2013 MazdaSpeed 3) or helping others with their general maintenance. If I wasn't in web development, I'd like to believe I would be a mechanic. I love everything car-related and dream to one day own a Dodge Viper.</p>
+					</div>
+					<div class="info-block text-left">
+						<h4>PGA Tour <span class="text-blue-500!">wannabe</span></h4>
+						<p>Golf is my latest obsession. I'm all in with clubs, a backyard net to practice, YouTube deep dives and a few rounds under my belt. It is so fun and frustrating at the same time. How is that possible? To love and hate something so much?! 😅</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>

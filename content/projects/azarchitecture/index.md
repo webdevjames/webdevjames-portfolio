@@ -49,7 +49,7 @@ Creating a home page featuring the most prominant call-to-action areas creates a
 ### Tailored for demographics
 
 #half-description
-The unique home buyer is different than the standard home buyer. azarchitecture clientele are intrigued by the property architect, style and historic relevance of the property or neighborhood. With this in mind, only relevant data is displayed. No frills or features that can obstruct interest.
+The unique home buyer is different than the standard home buyer. azarchitecture clientele are intrigued by the property architect, style and historic relevance of the property or neighborhood. With this in mind, only relevant demographic data is displayed. No frills or features that can obstruct interest.
 ::
 
 
@@ -62,6 +62,6 @@ The unique home buyer is different than the standard home buyer. azarchitecture 
 ### Turbo mode engaged
 
 #half-description
-Nuxt is a lightning-fast frontend framework to display WordPress REST API data. No more full-page reloading and theme asset loading. The property entry method was kept in place, but WordPress bloating elements like plugins and themes were able to be stripped down to "bare bones". This not only reduces the strain on the server, but enhances the experience for azarchitecture and their clients as well.
+Nuxt is a lightning-fast frontend framework to display WordPress REST API data. No more full-page reloading and theme asset loading. The team's WordPress property entry method was kept in place, but bloating elements like plugins and themes were able to be stripped down to "bare bones". This not only reduces the strain on the server, but enhances the user experience for the azarchitecture team and their clients as well.
 ::
 ::
