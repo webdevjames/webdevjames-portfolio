@@ -11,6 +11,7 @@
 		city: "",
 		state: "",
 		message: "",
+		faxNumber: "",
 	});
 
 	const isSubmitting = ref(false);
@@ -70,48 +71,52 @@
 		<div class="container">
 			<div class="container-inner">
 				<form @submit.prevent="handleFormSubmit" class="space-y-6">
+					<div class="absolute left-[-9999px] top-[-9999px] w-0 h-0 overflow-hidden" aria-hidden="true">
+						<label for="faxNumber">Fax Number</label>
+						<input v-model="form.faxNumber" type="text" id="faxNumber" tabindex="-1" autocomplete="off" />
+					</div>
 					<!-- Grid layout for side-by-side elements on desktop -->
 					<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 						<div>
-							<label class="block text-sm font-medium mb-2 text-slate-300">First Name*</label>
-							<input v-model="form.firstName" type="text" required class="w-full bg-slate-900 border border-slate-800 rounded-lg p-3 text-white focus:outline-none focus:border-slate-600 font-extralight" />
+							<label for="firstName" class="block text-sm font-medium mb-2 text-slate-300">First Name*</label>
+							<input v-model="form.firstName" type="text" id="firstName" required class="w-full bg-slate-900 border border-slate-800 rounded-lg p-3 text-white focus:outline-none focus:border-slate-600 font-extralight" />
 						</div>
 						<div>
-							<label class="block text-sm font-medium mb-2 text-slate-300">Last Name*</label>
-							<input v-model="form.lastName" type="text" required class="w-full bg-slate-900 border border-slate-800 rounded-lg p-3 text-white focus:outline-none focus:border-slate-600 font-extralight" />
-						</div>
-					</div>
-
-					<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-						<div>
-							<label class="block text-sm font-medium mb-2 text-slate-300">Company</label>
-							<input v-model="form.company" type="text" class="w-full bg-slate-900 border border-slate-800 rounded-lg p-3 text-white focus:outline-none focus:border-slate-600 font-extralight" />
-						</div>
-						<div>
-							<label class="block text-sm font-medium mb-2 text-slate-300">Role</label>
-							<input v-model="form.role" type="text" class="w-full bg-slate-900 border border-slate-800 rounded-lg p-3 text-white focus:outline-none focus:border-slate-600 font-extralight" />
+							<label for="lastName" class="block text-sm font-medium mb-2 text-slate-300">Last Name*</label>
+							<input v-model="form.lastName" type="text" id="lastName" required class="w-full bg-slate-900 border border-slate-800 rounded-lg p-3 text-white focus:outline-none focus:border-slate-600 font-extralight" />
 						</div>
 					</div>
 
 					<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 						<div>
-							<label class="block text-sm font-medium mb-2 text-slate-300">Email Address*</label>
-							<input v-model="form.email" type="email" required class="w-full bg-slate-900 border border-slate-800 rounded-lg p-3 text-white focus:outline-none focus:border-slate-600 font-extralight" />
+							<label for="company" class="block text-sm font-medium mb-2 text-slate-300">Company</label>
+							<input v-model="form.company" type="text" id="company" class="w-full bg-slate-900 border border-slate-800 rounded-lg p-3 text-white focus:outline-none focus:border-slate-600 font-extralight" />
 						</div>
 						<div>
-							<label class="block text-sm font-medium mb-2 text-slate-300">Phone</label>
-							<input v-model="form.phone" type="tel" class="w-full bg-slate-900 border border-slate-800 rounded-lg p-3 text-white focus:outline-none focus:border-slate-600 font-extralight" />
+							<label for="role" class="block text-sm font-medium mb-2 text-slate-300">Role</label>
+							<input v-model="form.role" type="text" id="role" class="w-full bg-slate-900 border border-slate-800 rounded-lg p-3 text-white focus:outline-none focus:border-slate-600 font-extralight" />
 						</div>
 					</div>
 
 					<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 						<div>
-							<label class="block text-sm font-medium mb-2 text-slate-300">City*</label>
-							<input v-model="form.city" type="text" required class="w-full bg-slate-900 border border-slate-800 rounded-lg p-3 text-white focus:outline-none focus:border-slate-600 font-extralight" />
+							<label for="emailAddress" class="block text-sm font-medium mb-2 text-slate-300">Email Address*</label>
+							<input v-model="form.email" type="email" id="emailAddress" required class="w-full bg-slate-900 border border-slate-800 rounded-lg p-3 text-white focus:outline-none focus:border-slate-600 font-extralight" />
 						</div>
 						<div>
-							<label class="block text-sm font-medium mb-2 text-slate-300">State*</label>
-							<select v-model="form.state" required class="w-full bg-slate-900 border border-slate-800 rounded-lg p-3 text-white focus:outline-none focus:border-slate-600 font-extralight appearance-none">
+							<label for="phone" class="block text-sm font-medium mb-2 text-slate-300">Phone</label>
+							<input v-model="form.phone" type="tel" id="phone" class="w-full bg-slate-900 border border-slate-800 rounded-lg p-3 text-white focus:outline-none focus:border-slate-600 font-extralight" />
+						</div>
+					</div>
+
+					<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+						<div>
+							<label for="city" class="block text-sm font-medium mb-2 text-slate-300">City*</label>
+							<input v-model="form.city" type="text" id="city" required class="w-full bg-slate-900 border border-slate-800 rounded-lg p-3 text-white focus:outline-none focus:border-slate-600 font-extralight" />
+						</div>
+						<div>
+							<label for="state" class="block text-sm font-medium mb-2 text-slate-300">State*</label>
+							<select v-model="form.state" id="state" required class="w-full bg-slate-900 border border-slate-800 rounded-lg p-3 text-white focus:outline-none focus:border-slate-600 font-extralight appearance-none">
 								<option value="" disabled selected>Select your state</option>
 								<option v-for="state in US_STATES" :key="state" :value="state">{{ state }}</option>
 							</select>

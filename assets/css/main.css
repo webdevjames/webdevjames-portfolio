@@ -70,24 +70,28 @@ body {
 			}
 
 			h1 {
-				@apply text-3xl/10 md:text-4xl/12 lg:text-5xl/13;
+				@apply text-3xl/8 md:text-4xl/10 lg:text-5xl/12;
 			}
 
 			h2 {
-				@apply text-3xl/10 md:text-4xl/12 lg:text-4xl/12;
+				@apply text-3xl/8 md:text-4xl/10;
 			}
 
 			h3 {
-				@apply text-2xl/8 lg:text-3xl/9;
+				@apply text-2xl/6 lg:text-3xl/8;
 			}
 
 			h4 {
-				@apply text-xl/6 md:text-2xl/8;
+				@apply text-xl/5 md:text-2xl/6;
 			}
 
 			p,
 			li {
 				@apply mb-4 font-light;
+			}
+
+			.hide {
+				@apply hidden md:inline-block;
 			}
 		}
 	}

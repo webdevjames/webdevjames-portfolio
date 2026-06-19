@@ -174,7 +174,7 @@
 						<p>My faith in Christ guides my values and work ethic (Colossians 3:23). I strive to provide my best in every project - which not only honors God, but honors those I serve. (Ephesians 6:7-8)</p>
 					</div>
 					<div class="info-block text-left">
-						<h4>Spending time with my <span class="text-blue-500!">family</span></h4>
+						<h4><span class="text-blue-500!">Family</span> time</h4>
 						<p>I enjoy spending time with my wife, three kids and our dog Milo. When we're not hanging out at home in the pool or playing video games, we're at the Phoenix Zoo, going on a day trip up north to Sedona or Jerome or making play dates with friends and their families.</p>
 					</div>
 					<div class="info-block text-left">

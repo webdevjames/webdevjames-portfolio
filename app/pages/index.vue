@@ -32,7 +32,7 @@
 			</div>
 		</div>
 	</section>
-	<CurrentProject />
+	<FeaturedProject />
 	<section class="section-main contained">
 		<div class="container">
 			<div class="container-inner pb-0!">

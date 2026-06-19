@@ -12,7 +12,7 @@
 					<NuxtLink to="/contact" target="_self" class="button alt">
 						<span>Hire Me</span>
 					</NuxtLink>
-					<NuxtLink to="https://www.linkedin.com/in/jamesfrazierdesign/details/projects/" target="_blank" class="button alt">
+					<NuxtLink to="https://www.linkedin.com/in/webdevjames/details/projects/" target="_blank" class="button alt">
 						<span>LinkedIn</span>
 					</NuxtLink>
 				</div>
@@ -24,10 +24,10 @@
 			<div class="container-inner">
 				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 					<NuxtLink v-for="project in projects" :key="project.id" :to="project.path.replace('/projects', '/portfolio')" class="relative border rounded-lg transition">
-						<img :src="project.heroImage" class="w-full rounded-xl mb-2" alt="" />
-						<h4 class="mb-0!">{{ project.title }}</h4>
-						<p class="bg-blue-500 absolute top-2 right-2 inline rounded-xl text-[10px] text-white uppercase tracking-widest font-bold px-2 pt-1 pb-0.5 m-0 z-2 block">{{ project.category }}</p>
-						<p class="text-sm mt-1 mb-0 block">{{ project.blurb }}</p>
+						<img :src="project.heroImage" class="w-full rounded-xl mb-4" alt="" />
+						<h5 class="mb-0!">{{ project.title }}</h5>
+						<p v-if="project.category" class="bg-blue-500 absolute top-2 right-2 inline rounded-xl text-[10px] text-white uppercase tracking-widest font-bold px-2 pt-1 pb-0.5 m-0 z-2 block">{{ project.category }}</p>
+						<p class="text-xs mt-1 mb-0 block">{{ project.blurb }}</p>
 					</NuxtLink>
 				</div>
 			</div>
