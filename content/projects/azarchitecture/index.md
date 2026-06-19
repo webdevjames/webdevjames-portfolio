@@ -1,6 +1,6 @@
 ---
 title: "azarchitecture"
-category: "Web"
+category: "Web, Active Development"
 heroImage: "/webdevjames-project-banner-azarchitecture.jpg"
 blurb: "The only Real Estate firm in Arizona specializing in the unique homes."
 description: "azarchitecture / Jarson & Jarson is the only Real Estate firm in Arizona that specializes in the sales and marketing of Architecturally Unique Homes™"
@@ -16,7 +16,7 @@ specs:
 ::project-section-contained
 ## Project Overview
 
-As premier real estate agents of _Architecturally Unique Homes™_, azarchitecture delivers stellar service with decades of experience in pairing the perfect unique home for the unique buyer. With exclusive listings and MLS listings available, the website needed to showcase their exclusive properties prominantly, feature their real estate publications and make the user experience fast and cohesive. To meet these requirements while maintaining their current method of content management (WordPress), the Nuxt framework was built for the front-end to deliver a SPA experience while WordPress remained the CMS in a "headless" format.
+As premier real estate agents of _Architecturally Unique Homes™_, azarchitecture delivers stellar service with decades of experience in pairing the perfect unique home for the unique buyer. With exclusive listings and MLS listings available, the website needed to showcase their exclusive properties prominently, feature their real estate publications and make the user experience fast and cohesive. To meet these requirements while maintaining their current method of content management (WordPress), the Nuxt framework was built for the front-end to deliver a SPA experience while WordPress remained the CMS in a "headless" format.
 
 **Note:** This project is currently in development. Please use the gateway credentials provided below:
 
@@ -36,7 +36,7 @@ As premier real estate agents of _Architecturally Unique Homes™_, azarchitectu
 ### Home is the hub
 
 #half-description
-Creating a home page featuring the most prominant call-to-action areas creates a hub-like feel. With sections like new and featured listings, recently sold listings, magazine subscription and more, it's a perfect layout treatment to encourage deeper engagement.
+Creating a home page featuring the most prominent call-to-action areas creates a hub-like feel. With sections like new and featured listings, recently sold listings, magazine subscription and more, it's a perfect layout treatment to encourage deeper engagement.
 ::
 
 

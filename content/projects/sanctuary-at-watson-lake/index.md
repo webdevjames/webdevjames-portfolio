@@ -1,6 +1,6 @@
 ---
 title: "Sanctuary at Watson Lake"
-category: "Web"
+category: "Web, Active Development"
 heroImage: "/webdevjames-project-banner-sanctuary-watson-lake.jpg"
 blurb: "Luxury homesites and custom estates surrounded by Prescott’s nature."
 description: "An exclusive residential community tucked away in a secluded valley, just minutes from downtown Prescott."

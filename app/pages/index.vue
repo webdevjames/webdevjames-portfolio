@@ -37,7 +37,7 @@
 		<div class="container">
 			<div class="container-inner pb-0!">
 				<h2>Websites of all shapes and sizes</h2>
-				<p>From small nonprofts to enterprise-level build scale, I create web experiences that appeal to clients and their consumers.</p>
+				<p>From small nonprofits to enterprise-level build scale, I create web experiences that appeal to clients and their consumers.</p>
 			</div>
 		</div>
 	</section>

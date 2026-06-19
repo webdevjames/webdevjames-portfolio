@@ -32,7 +32,7 @@ This time around, making the website visitor experience more personal was a prim
 ### Soaring the skies
 
 #half-description
-Somewhere over the desert horizon was a better approach to design. Making use of quality photography made the layout a cinch - large imagery curated based on the page content. Placing more visual prominance on elements like Animal Ambassadors, publications (blog, news articles, newsletters, etc) created a much more user-friendly experience to digest the vast amount of content available.
+Somewhere over the desert horizon was a better approach to design. Making use of quality photography made the layout a cinch - large imagery curated based on the page content. Placing more visual prominence on elements like Animal Ambassadors, publications (blog, news articles, newsletters, etc) created a much more user-friendly experience to digest the vast amount of content available.
 ::
 
 

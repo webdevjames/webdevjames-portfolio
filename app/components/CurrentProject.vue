@@ -14,7 +14,7 @@
 		},
 		cpDescription: {
 			type: String,
-			default: "A pristene setting to build a home. This developer desired an elegant design, interactive map and ease-of-use for future additions and editing.",
+			default: "A pristine setting to build a home. This developer desired an elegant design, interactive map and ease-of-use for future additions and editing.",
 		},
 		cpLink: {
 			type: String,

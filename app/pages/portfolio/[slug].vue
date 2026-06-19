@@ -6,11 +6,11 @@
 </script>
 <template>
 	<div v-if="page">
-		<section class="section-main section-intro relative overflow-y-hidden bg-no-repeat bg-cover bg-center min-h-[50vh]" :style="{ backgroundImage: `url(${page.heroImage})` }">
+		<section class="section-main contained section-intro relative overflow-y-hidden bg-no-repeat bg-cover bg-position-[center_top] h-[75vw] min-h-[70vh] max-h-[875px] items-end!" :style="{ backgroundImage: `url(${page.heroImage})` }">
 			<div class="container z-2">
-				<div class="container-inner">
-					<h1 class="text-center">{{ page.title }}</h1>
-					<p class="text-center">{{ page.description }}</p>
+				<div class="container-inner py-8!">
+					<h1>{{ page.title }}</h1>
+					<p>{{ page.description }}</p>
 				</div>
 			</div>
 			<div class="absolute inset-0 bg-black/50 w-full h-full z-1"></div>

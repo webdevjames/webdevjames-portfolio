@@ -6,7 +6,7 @@
 			image: "/logo-fullbay.svg",
 			company: "Fullbay",
 			quote:
-				"I had the pleasure of working with James as a consultant for our website service offering which has evolved into a huge line of business for Fullbay, Deiselmatic. James worked diligently with our team to improve our design and then implement that design into a captivating template in WordPress. After our initial conversations with early customers went well, James joined us in launching 20+ customer sites in 3 months. His dedication extended to training a new hire on the website building process. We often escalated hard to solve problems to James and he was able to solve them quickly due to his years of expertise. I would highly recommend working with James to take your project to the next level.",
+				"I had the pleasure of working with James as a consultant for our website service offering which has evolved into a huge line of business for Fullbay, Dieselmatic. James worked diligently with our team to improve our design and then implement that design into a captivating template in WordPress. After our initial conversations with early customers went well, James joined us in launching 20+ customer sites in 3 months. His dedication extended to training a new hire on the website building process. We often escalated hard to solve problems to James and he was able to solve them quickly due to his years of expertise. I would highly recommend working with James to take your project to the next level.",
 			author: "Sarah Hyde",
 			link: "https://fullbay.com/",
 		},
@@ -28,7 +28,7 @@
 			image: "/logo-liberty-wildlife.svg",
 			company: "Liberty Wildlife",
 			quote:
-				"When updating our old website, we chose James as he understood our mission well.  He spent early years as a volunteer.  Seeing how a person volunteers is a great window into how they work!  That was huge in our seeking him for help.  We couldn’t have been more pleased.  He listened to our needs and desires.  He kindly guided us when we went terribly astray.  And the end result was better than we could have imagined.  Our public finds our site very accessible.  Anything that needed adapting was done quickly with all of the sage advice needed to help some pretty novice customers. And, he is readably available when needed.  Responses are quick and decisive.  Overall, we are very pleased with James and the product he delivered to us.",
+				"When updating our old website, we chose James as he understood our mission well. He spent early years as a volunteer. Seeing how a person volunteers is a great window into how they work! That was huge in our seeking him for help. We couldn't have been more pleased. He listened to our needs and desires. He kindly guided us when we went terribly astray. And the end result was better than we could have imagined. Our public finds our site very accessible. Anything that needed adapting was done quickly with all of the sage advice needed to help some pretty novice customers. And, he is readably available when needed. Responses are quick and decisive. Overall, we are very pleased with James and the product he delivered to us.",
 			author: "Megan Mosby",
 			link: "https://libertywildlife.org/",
 		},
@@ -55,7 +55,7 @@
 		<div class="container">
 			<div class="container-inner text-left pb-0!">
 				<h2>My experience</h2>
-				<p>I have been around the block (once or twice). From building websites using <code>&lt;table&gt;</code> tags to structuring modern frameworks, my years of experience have been to the benefit of both agencies and clients, alike. My proven knowledge and outstanding communication with clients has allowed me to grow in not only my own skillset, but has provided me with the privilage of working on some amazing brands including:</p>
+				<p>I have been around the block (once or twice). From building websites using <code>&lt;table&gt;</code> tags to structuring modern frameworks, my years of experience have been to the benefit of both agencies and clients, alike. My proven knowledge and outstanding communication with clients has allowed me to grow in not only my own skillset, but has provided me with the privilege of working on some amazing brands including:</p>
 			</div>
 		</div>
 	</section>
@@ -79,50 +79,43 @@
 			</div>
 		</div>
 	</section>
-	<section class="section-main">
+	<section class="section-main relative">
 		<div class="container">
 			<div class="container-inner pb-0!">
 				<ClientOnly>
-					<swiper-container ref="containerRef">
-						<swiper-slide v-for="(slide, idx) in slides" :key="idx">
-							<div class="w-full grid grid-cols-1 md:grid-cols-[1fr_225px] gap-6 md:gap-10 px-8 py-6 border border-white/20 bg-radial-[at_25%_25%] from-white/20 to-white/5 to-75% rounded-xl">
-								<div class="slide-content order-2 md:order-1">
-									<p>
-										<em>{{ slide.quote }}</em>
-									</p>
-									<p class="font-bold!">&mdash; {{ slide.author }}</p>
-									<div class="button-wrap">
-										<a :href="slide.link" target="_blank" class="button"
-											><span>Visit {{ slide.company }}</span></a
-										>
-									</div>
+					<swiper-container ref="containerRef" :loop="true" :modules="[SwiperPagination]" :pagination="{ clickable: true }" class="z-1 w-full px-6 md:px-10 pt-8 pb-4 border border-white/20 bg-radial-[at_25%_25%] from-white/20 to-white/5 to-75% rounded-xl m-auto">
+						<swiper-slide v-for="(slide, idx) in slides" :key="idx" class="w-full grid grid-cols-1 md:grid-cols-[1fr_225px] gap-6 md:gap-10 overflow-hidden pb-10">
+							<div class="slide-content order-2 md:order-1">
+								<p>
+									<em>{{ slide.quote }}</em>
+								</p>
+								<p class="font-bold!">&mdash; {{ slide.author }}</p>
+								<div class="button-wrap">
+									<a :href="slide.link" target="_blank" class="button md:px-6! md:py-2!"
+										><span>Visit {{ slide.company }}</span></a
+									>
 								</div>
-								<div class="slide-attributon order-1 md:order-2">
-									<div class="slide-attribution-container w-[150px] md:w-[225px] h-[150px] md:h-[225px] bg-white rounded-[100%] flex items-center justify-center flex-col m-auto md:m-0">
-										<img :src="slide.image" :alt="slide.company" class="max-w-[100px] md:max-w-[150px]" />
-									</div>
+							</div>
+							<div class="slide-attributon order-1 md:order-2">
+								<div class="slide-attribution-container w-[150px] md:w-[225px] h-[150px] md:h-[225px] bg-white rounded-[100%] flex items-center justify-center flex-col m-auto md:m-0">
+									<img :src="slide.image" :alt="slide.company" class="max-w-[100px] md:max-w-[150px]" />
 								</div>
 							</div>
 						</swiper-slide>
 					</swiper-container>
 				</ClientOnly>
-
-				<!-- Go back one slide -->
-				<button @click="swiper.prev()">Prev</button>
-				<!-- Go forward one slide -->
-				<button @click="swiper.next()">Next</button>
 			</div>
 		</div>
 	</section>
 	<section class="section-main contained">
 		<div class="container">
 			<div class="container-inner text-left pb-0!">
-				<h2>What makes me a great fit for your team?</h2>
+				<h2>Let's explore what would make me a great fit for your team</h2>
 				<p>Web development is my primary objective, but isn't the extent of what my agency experience brings to the table. Here are some other aspects of digital marketing that will make our partnership worthwhile:</p>
 				<ul>
 					<li class="grid grid-cols-[20px_1fr] gap-3">
 						<div class="flex items-start justify-start mt-1"><Icon name="iconamoon:check-bold" style="color: var(--color-blue-500) !important" /></div>
-						<span>Asset manipulation and optimization for web (using Photoshop and Illustator)</span>
+						<span>Asset manipulation and optimization for web (using Photoshop and Illustrator)</span>
 					</li>
 					<li class="grid grid-cols-[20px_1fr] gap-3">
 						<div class="flex items-start justify-start mt-1"><Icon name="iconamoon:check-bold" style="color: var(--color-blue-500) !important" /></div>
@@ -134,7 +127,7 @@
 					</li>
 					<li class="grid grid-cols-[20px_1fr] gap-3">
 						<div class="flex items-start justify-start mt-1"><Icon name="iconamoon:check-bold" style="color: var(--color-blue-500) !important" /></div>
-						<span>Implemention of seach engine optimization tools and data / SCHEMA</span>
+						<span>Implementation of search engine optimization tools and data / SCHEMA</span>
 					</li>
 					<li class="grid grid-cols-[20px_1fr] gap-3">
 						<div class="flex items-start justify-start mt-1"><Icon name="iconamoon:check-bold" style="color: var(--color-blue-500) !important" /></div>
@@ -198,4 +191,17 @@
 	</section>
 	<CallToAction />
 </template>
-<style scoped></style>
+<style>
+	swiper-container {
+		--swiper-pagination-color: var(--color-blue-500);
+		--swiper-pagination-bullet-inactive-color: #ffffff;
+		--swiper-pagination-bullet-inactive-opacity: 1;
+		--swiper-pagination-bullet-size: 8px;
+		--swiper-pagination-bullet-horizontal-gap: 6px;
+	}
+
+	swiper-container::part(bullet-active) {
+		width: 20px; /* Expands the bullet horizontally into a pill shape */
+		border-radius: 8px;
+	}
+</style>

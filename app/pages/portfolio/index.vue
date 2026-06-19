@@ -27,11 +27,24 @@
 						<img :src="project.heroImage" class="w-full rounded-xl mb-2" alt="" />
 						<h4 class="mb-0!">{{ project.title }}</h4>
 						<p class="bg-blue-500 absolute top-2 right-2 inline rounded-xl text-[10px] text-white uppercase tracking-widest font-bold px-2 pt-1 pb-0.5 m-0 z-2 block">{{ project.category }}</p>
-						<p class="mt-1 mb-0 block">{{ project.blurb }}</p>
+						<p class="text-sm mt-1 mb-0 block">{{ project.blurb }}</p>
 					</NuxtLink>
 				</div>
 			</div>
 		</div>
 	</section>
+	<!-- <section class="section-main section-more-projects">
+		<div class="container">
+			<div class="container-inner">
+				<h2>More noteworthy projects</h2>
+				<ul class="list-disc ml-[1rem]">
+					<li>Project 1</li>
+					<li>Project 2</li>
+					<li>Project 3</li>
+				</ul>
+			</div>
+		</div>
+	</section> -->
+	<CallToAction />
 </template>
 <style scoped></style>
