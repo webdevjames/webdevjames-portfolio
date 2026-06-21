@@ -5,6 +5,7 @@ heroImage: "/webdevjames-project-banner-sanctuary-watson-lake.jpg"
 blurb: "Luxury homesites and custom estates surrounded by Prescott’s nature."
 description: "An exclusive residential community tucked away in a secluded valley, just minutes from downtown Prescott."
 specs:
+  - "Website Design"
   - "WordPress"
   - "Advanced Custom Fields"
   - "Custom Post Types"
@@ -34,7 +35,7 @@ The client wanted a site that would reflect the beauty of the landscape for buye
 ### Show the beauty
 
 #half-description
-Luckily, this area was easy to showcase. It's gorgeous landscape and active community provided more than enough material to excite potential buyers to engage. The imagery and associated content help the user identify with the area and guide them to explore the possibilities of planing roots in Prescott.
+Luckily, this area was easy to showcase. It's gorgeous landscape and active community provide more than enough material to excite potential buyers to engage. The imagery and associated content help the user identify with the area and guide them to explore the possibilities of planting roots in Prescott.
 ::
 
 
@@ -47,7 +48,7 @@ Luckily, this area was easy to showcase. It's gorgeous landscape and active comm
 ### Imagine yourself here
 
 #half-description
-The interactive map invites users to select plot locations for their new dream home. Seeing the placement and position encourage consideration beyond the landscape. Exposure and proximity become crucial choices to the perfect plot of land - further solidifying Sanctuary at Watson Lake as a potential homesite.
+The interactive map invites users to select plot locations for their new dream home. Seeing the placement and position encourage consideration beyond the landscape. Exposure and proximity are crucial choices to the perfect plot of land - further solidifying Sanctuary at Watson Lake as a potential homesite.
 ::
 
 
@@ -60,6 +61,6 @@ The interactive map invites users to select plot locations for their new dream h
 ### Making life convenient
 
 #half-description
-Showcasing the beauty is one thing - ensuring life here is also convenient is another. Featuring the close proximity of popular cities, restaurants, hospitals, airports and daily life necessities was equally important. Including interactive maps and destination highlights lock in potential buyers.
+Showcasing the beauty is one thing - ensuring life here is also convenient is another. Keeping the buyer informed regarding the close proximity of popular cities, restaurants, hospitals, airports and daily life necessities was important. By including interactive maps and destination highlights, we help lock in potential buyers.
 ::
 ::

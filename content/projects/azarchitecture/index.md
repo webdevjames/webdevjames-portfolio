@@ -5,6 +5,7 @@ heroImage: "/webdevjames-project-banner-azarchitecture.jpg"
 blurb: "The only Real Estate firm in Arizona specializing in the unique homes."
 description: "azarchitecture / Jarson & Jarson is the only Real Estate firm in Arizona that specializes in the sales and marketing of Architecturally Unique Homes™"
 specs:
+  - "Website Design"
   - "Nuxt Framework"
   - "Headless WordPress CMS"
   - "Advanced Custom Fields"

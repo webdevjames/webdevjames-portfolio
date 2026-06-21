@@ -33,18 +33,27 @@
 			</div>
 		</div>
 	</section>
-	<!-- <section class="section-main section-more-projects">
+	<section class="section-main contained section-more-projects">
 		<div class="container">
 			<div class="container-inner">
 				<h2>More noteworthy projects</h2>
-				<ul class="list-disc ml-[1rem]">
-					<li>Project 1</li>
-					<li>Project 2</li>
-					<li>Project 3</li>
+				<p>As the <strong>Lead WordPress Developer</strong> on these projects, they deserve on honorable mention. Each project had specific requests (and fun quirks) of their own - along with some amazing clients.</p>
+				<ul class="lml-[1rem]">
+					<li class="flex items-center justify-start"><Icon name="akar-icons:link-out" class="text-blue-500!" /> <a href="https://bohnbiofilter.com/" target="_blank" class="ml-2 transition hover:text-blue-500">Bohn Biofilter</a></li>
+					<li class="flex items-center justify-start"><Icon name="akar-icons:link-out" class="text-blue-500!" /> <a href="https://cya.coffee/" target="_blank" class="ml-2 transition hover:text-blue-500">Cover Your Assets</a></li>
+					<li class="flex items-center justify-start"><Icon name="akar-icons:link-out" class="text-blue-500!" /> <a href="https://davidmichaelmiller.com" target="_blank" class="ml-2 transition hover:text-blue-500">David Michael Miller Associates</a></li>
+					<li class="flex items-center justify-start"><Icon name="akar-icons:link-out" class="text-blue-500!" /> <a href="https://verderiver.org/" target="_blank" class="ml-2 transition hover:text-blue-500">Friends of the Verde River</a></li>
+					<li class="flex items-center justify-start"><Icon name="akar-icons:link-out" class="text-blue-500!" /> <a href="https://palmtowerphx.com/" target="_blank" class="ml-2 transition hover:text-blue-500">PALM Tower</a></li>
+					<li class="flex items-center justify-start"><Icon name="akar-icons:link-out" class="text-blue-500!" /> <a href="https://pleasantharbor.com/" target="_blank" class="ml-2 transition hover:text-blue-500">Pleasant Harbor</a></li>
+					<li class="flex items-center justify-start"><Icon name="akar-icons:link-out" class="text-blue-500!" /> <a href="https://pragmaticheart.com/" target="_blank" class="ml-2 transition hover:text-blue-500">Pragmatic Heart</a></li>
+					<li class="flex items-center justify-start"><Icon name="akar-icons:link-out" class="text-blue-500!" /> <a href="https://thebazaarliving.com" target="_blank" class="ml-2 transition hover:text-blue-500">The Bazaar Living</a></li>
+					<li class="flex items-center justify-start"><Icon name="akar-icons:link-out" class="text-blue-500!" /> <a href="https://toddassoc.com/" target="_blank" class="ml-2 transition hover:text-blue-500">Todd &amp Associates</a></li>
+					<li class="flex items-center justify-start"><Icon name="akar-icons:link-out" class="text-blue-500!" /> <a href="https://wellnessinverdevalleyaz.com/" target="_blank" class="ml-2 transition hover:text-blue-500">Wellness in the Verde Valley</a></li>
+					<li class="flex items-center justify-start"><Icon name="akar-icons:link-out" class="text-blue-500!" /> <a href="https://wildfireaz.org/" target="_blank" class="ml-2 transition hover:text-blue-500">Wildfire AZ</a></li>
 				</ul>
 			</div>
 		</div>
-	</section> -->
+	</section>
 	<CallToAction />
 </template>
 <style scoped></style>

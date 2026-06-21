@@ -60,6 +60,6 @@ Besides artwork, museums often have specific exhibitions and  public or private 
 ### Future plans in the works
 
 #half-description
-The Western Museum was on the verge of a major expansion and remodeling. Thanks to a generous donation from Carey and Jack Sigler, the former Desert Caballeros Western Museum was rebranding to Sigler Western Museum. They needed to be able to control the site content to reflect the change and showcase the exciting new developments.
+The Western Museum was on the verge of a major expansion and remodeling. Thanks to a generous donation from Carey and Jack Sigler, the former Desert Caballeros Western Museum was rebranding to Sigler Western Museum. They needed to be able to control the site content to reflect the change and showcase the exciting new developments on their own timeframe.
 ::
 ::

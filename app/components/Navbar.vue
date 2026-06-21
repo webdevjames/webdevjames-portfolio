@@ -13,7 +13,7 @@
 			url: "/contact",
 		},
 	]);
-	const logoSrc = "/logo-webdev_james-thin.svg";
+	const logoSrc = "/logo-webdevjames-white-blue.svg";
 </script>
 <template>
 	<nav class="w-full fixed top-0 left-0 h-[88px] z-9">

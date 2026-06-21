@@ -5,6 +5,7 @@ heroImage: "/webdevjames-project-banner-fairtrade.jpg"
 blurb: "A thought leader, facilitator, mediator, and design innovator in architecture and urbanism."
 description: "FA-I-RTRADE Architecture + Urbanism is a 501c3 whose mission is to provide innovative design solutions for the greater good of society."
 specs:
+  - "Website Design"
   - "HTML5"
   - "SCSS / CSS3"
   - "Animate.css"

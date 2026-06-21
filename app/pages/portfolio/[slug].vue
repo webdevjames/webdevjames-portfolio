@@ -9,6 +9,7 @@
 		<section class="section-main contained section-intro relative overflow-y-hidden bg-no-repeat bg-cover bg-position-[center_top] h-[75vw] min-h-[70vh] max-h-[875px] items-end!" :style="{ backgroundImage: `url(${page.heroImage})` }">
 			<div class="container z-2">
 				<div class="container-inner py-8!">
+					<p class="subheading">Portfolio Project</p>
 					<h1>{{ page.title }}</h1>
 					<p>{{ page.description }}</p>
 				</div>
@@ -29,11 +30,13 @@
 			</div>
 		</section>
 		<ContentRenderer :value="page" />
-		<section class="section-main">
+		<section class="section-main mt-4 md:mt-8">
 			<div class="container">
-				<div class="container-inner pt-0! flex items-center justify-center text-center">
+				<div class="container-inner border-t-4 border-blue-500">
+					<h2>Thanks for checking out {{ page.title }}</h2>
+					<p>Want to see more web development projects?</p>
 					<div class="button-wrap">
-						<a href="/portfolio" class="button mt-0!"><span>Back to Portfolio</span></a>
+						<a href="/portfolio" class="button"><span>Back to Portfolio</span></a>
 					</div>
 				</div>
 			</div>
