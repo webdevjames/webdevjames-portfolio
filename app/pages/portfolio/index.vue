@@ -6,14 +6,14 @@
 		<div class="container">
 			<div class="container-inner">
 				<p class="subheading">Portfolio</p>
-				<h1>A collection of my favorite projects</h1>
+				<h1>A collection of my favorite agency and freelance web projects</h1>
 				<p>This is collection of featured web and HTML email development projects that span over a decade. This is not an exhaustive list. To reference more projects, please refer to my LinkedIn profile.</p>
 				<div class="button-wrap multi">
 					<NuxtLink to="/contact" target="_self" class="button alt">
 						<span>Hire Me</span>
 					</NuxtLink>
 					<NuxtLink to="https://www.linkedin.com/in/webdevjames/details/projects/" target="_blank" class="button alt">
-						<span>LinkedIn</span>
+						<span>LinkedIn Projects</span>
 					</NuxtLink>
 				</div>
 			</div>
@@ -37,7 +37,7 @@
 		<div class="container">
 			<div class="container-inner">
 				<h2>More noteworthy projects</h2>
-				<p>As the <strong>Lead WordPress Developer</strong> on these projects, they deserve on honorable mention. Each project had specific requests (and fun quirks) of their own - along with some amazing clients.</p>
+				<p>As the <strong>Lead WordPress Developer</strong> on these projects, they deserve an honorable mention. Each project had specific requests (and fun quirks) of their own - along with some amazing clients.</p>
 				<ul class="lml-[1rem]">
 					<li class="flex items-center justify-start"><Icon name="akar-icons:link-out" class="text-blue-500!" /> <a href="https://bohnbiofilter.com/" target="_blank" class="ml-2 transition hover:text-blue-500">Bohn Biofilter</a></li>
 					<li class="flex items-center justify-start"><Icon name="akar-icons:link-out" class="text-blue-500!" /> <a href="https://cya.coffee/" target="_blank" class="ml-2 transition hover:text-blue-500">Cover Your Assets</a></li>

@@ -98,7 +98,7 @@ body {
 
 	&.contained {
 		.container .container-inner {
-			@apply max-w-[800px];
+			@apply max-w-[900px];
 		}
 	}
 }

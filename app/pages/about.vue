@@ -47,7 +47,15 @@
 			<div class="container-inner text-left">
 				<p class="subheading">About</p>
 				<h1>Nice to meet you... <br class="hide" />I'm James Frazier</h1>
-				<p>Get to know about my professional experience, a taste of my personal life, and how we would make a great team.</p>
+				<p>Get to know about my dedicated and stable professional experience, my personal life, and how we would make a great team.</p>
+				<div class="button-wrap multi">
+					<NuxtLink to="/contact" target="_self" class="button alt">
+						<span>Hire Me</span>
+					</NuxtLink>
+					<NuxtLink to="https://www.linkedin.com/in/webdevjames/" target="_blank" class="button alt">
+						<span>LinkedIn Profile</span>
+					</NuxtLink>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -83,7 +91,18 @@
 		<div class="container">
 			<div class="container-inner pb-0!">
 				<ClientOnly>
-					<swiper-container ref="containerRef" :loop="true" :modules="[SwiperPagination]" :pagination="{ clickable: true }" class="z-1 w-full px-6 md:px-10 pt-8 pb-4 border border-white/20 bg-radial-[at_25%_25%] from-white/20 to-white/5 to-75% rounded-xl m-auto">
+					<swiper-container
+						ref="containerRef"
+						:loop="true"
+						:autoplay="{
+							delay: 3000,
+							disableOnInteraction: true,
+							pauseOnMouseEnter: true,
+						}"
+						:modules="[SwiperPagination]"
+						:pagination="{ clickable: true }"
+						class="z-1 w-full px-6 md:px-10 pt-8 pb-4 border border-white/20 bg-radial-[at_25%_25%] from-white/20 to-white/5 to-75% rounded-xl m-auto"
+					>
 						<swiper-slide v-for="(slide, idx) in slides" :key="idx" class="w-full grid grid-cols-1 md:grid-cols-[1fr_225px] gap-6 md:gap-10 overflow-hidden pb-10">
 							<div class="slide-content order-2 md:order-1">
 								<p>

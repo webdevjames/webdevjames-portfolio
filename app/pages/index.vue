@@ -2,8 +2,8 @@
 <template>
 	<section class="section-main h-dvh blueprint-grid">
 		<div class="container">
-			<div class="container-inner max-w-200">
-				<h1 class="text-4xl/12 md:text-5xl/15 lg:text-6xl/18">Full-Stack Web Developer Specializing in Small &amp; Agency-Scale Applications</h1>
+			<div class="container-inner max-w-250">
+				<h1 class="text-4xl/12 md:text-5xl/15 lg:text-6xl/18">Full-Stack Web Developer Specializing in Agency-Scale Web Applications</h1>
 				<div class="button-wrap multi">
 					<NuxtLink to="/portfolio" class="button">
 						<span>See the Work</span>
