@@ -36,7 +36,7 @@
 					<h2>Thanks for checking out {{ page.title }}</h2>
 					<p>Want to see more web development projects?</p>
 					<div class="button-wrap">
-						<a href="/portfolio" class="button"><span>Back to Portfolio</span></a>
+						<NuxtLink to="/portfolio" class="button"><span>Back to Portfolio</span></NuxtLink>
 					</div>
 				</div>
 			</div>
@@ -49,7 +49,7 @@
 					<h1 class="text-center">Project not found</h1>
 					<p class="text-white text-center">Please go back to the Portfolio.</p>
 					<div class="button-wrap mt-0!">
-						<a href="/portfolio" class="button"><span>Back to Portfolio</span></a>
+						<NuxtLink to="/portfolio" class="button"><span>Back to Portfolio</span></NuxtLink>
 					</div>
 				</div>
 			</div>

@@ -12,9 +12,9 @@
 						<span>View Resume</span>
 					</NuxtLink>
 				</div>
-				<a href="#next" class="absolute bottom-0 left-0 w-full h-20 flex items-center justify-center">
+				<NuxtLink to="#next" class="absolute bottom-0 left-0 w-full h-20 flex items-center justify-center">
 					<Icon name="lucide:chevron-down" class="animate-bounce text-center m-auto inline-block text-4xl" />
-				</a>
+				</NuxtLink>
 			</div>
 		</div>
 	</section>
