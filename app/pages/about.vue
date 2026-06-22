@@ -115,7 +115,7 @@
 				<ul>
 					<li class="grid grid-cols-[20px_1fr] gap-3">
 						<div class="flex items-start justify-start mt-1"><Icon name="iconamoon:check-bold" style="color: var(--color-blue-500) !important" /></div>
-						<span>Asset manipulation and optimization for web (using Photoshop and Illustrator)</span>
+						<span>Asset manipulation and optimization for web (using Adobe Photoshop and Illustrator)</span>
 					</li>
 					<li class="grid grid-cols-[20px_1fr] gap-3">
 						<div class="flex items-start justify-start mt-1"><Icon name="iconamoon:check-bold" style="color: var(--color-blue-500) !important" /></div>
@@ -123,7 +123,7 @@
 					</li>
 					<li class="grid grid-cols-[20px_1fr] gap-3">
 						<div class="flex items-start justify-start mt-1"><Icon name="iconamoon:check-bold" style="color: var(--color-blue-500) !important" /></div>
-						<span>AI prompting, integration and for boilerplate complex and </span>
+						<span>AI prompting and integration for time-saving boilerplate and / or complex resolution finding</span>
 					</li>
 					<li class="grid grid-cols-[20px_1fr] gap-3">
 						<div class="flex items-start justify-start mt-1"><Icon name="iconamoon:check-bold" style="color: var(--color-blue-500) !important" /></div>
@@ -161,7 +161,7 @@
 		<div class="container">
 			<div class="container-inner text-left pb-0!">
 				<h2>My personal life</h2>
-				<p>I absolutely love web development, so I never actually have to work. I built my first website way back in 2010 and I was hooked. I left my job in sales/customer service and have never looked back. Since then, I have been developing for agencies and freelancing for a variety of clientele.</p>
+				<p>I absolutely love web development, so I never actually have to work. I built my first website way back in 2010 and I was hooked. I left my job in sales / customer service and have never looked back. Since then, I have been developing for agencies and freelancing for a variety of clientele.</p>
 			</div>
 		</div>
 	</section>

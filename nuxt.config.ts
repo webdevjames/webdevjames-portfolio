@@ -8,11 +8,12 @@ export default defineNuxtConfig({
 	css: ["~~/assets/css/main.css"],
 	vite: {
 		plugins: [tailwindcss()],
+		optimizeDeps: {
+			include: ["swiper/element/bundle", "@nuxtjs/mdc > remark-gfm", "@nuxtjs/mdc > remark-emoji", "@nuxtjs/mdc > remark-mdc", "@nuxtjs/mdc > remark-rehype", "@nuxtjs/mdc > rehype-raw", "@nuxtjs/mdc > parse5", "@nuxtjs/mdc > unist-util-visit", "@nuxtjs/mdc > unified", "@nuxtjs/mdc > debug", "@nuxtjs/mdc > extend"],
+		},
 	},
-	optimizeDeps: {
-		include: [],
-	},
-	modules: ["@nuxt/icon", "@nuxt/fonts", "@nuxt/content", "nuxt-swiper"],
+
+	modules: ["@nuxt/icon", "@nuxt/fonts", "@nuxt/content", "nuxt-swiper", "@vercel/speed-insights"],
 	content: {
 		renderer: {
 			anchorLinks: false, // This stops Nuxt from turning headings into <a> tags
