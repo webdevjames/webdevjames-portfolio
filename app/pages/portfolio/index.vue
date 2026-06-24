@@ -31,7 +31,7 @@
 			<div class="container-inner">
 				<p class="subheading">Portfolio</p>
 				<h1>Agency and freelance web design and development projects</h1>
-				<p>This is a collection of featured web and HTML email development projects that span over a decade. This is not an exhaustive list, so if you would like to see more, please refer to my LinkedIn profile.</p>
+				<p>This is a collection of featured web projects that span over a decade. This is not an exhaustive list, so if you would like to see more, please refer to my LinkedIn profile.</p>
 				<div class="button-wrap multi">
 					<NuxtLink to="/contact" target="_self" class="button alt">
 						<span>Hire Me</span>

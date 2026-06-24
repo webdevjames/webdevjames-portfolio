@@ -3,7 +3,7 @@
 		title: "James Frazier | Agency and Freelance Full-Stack Web Developer (webdevjames)",
 		description: "Hi, I'm James Frazier. I build high-performance custom Nuxt and WordPress web applications. I also specialize in HTML email template development.",
 		ogTitle: "James Frazier | Full-Stack Web Developer",
-		ogDescription: "Custom web and HTML email applications for any application. ",
+		ogDescription: "Custom web and HTML email development for any application. ",
 		ogImage: "/default-social-card.jpg",
 		twitterImage: "/default-social-card.jpg",
 	});
