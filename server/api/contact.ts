@@ -1,13 +1,23 @@
 // server/api/contact.ts
 import { Resend } from "resend";
 
-// Grab your Resend API Key from a local runtime .env file
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export default defineEventHandler(async (event) => {
 	const body = await readBody(event);
 
-	// 1. Basic validation safety check for required items
+	// 1. THE HONEYPOT TRAPDOOR
+	// If a bot (or your local test) filled this out, we intercept it here.
+	// We return a fake 200 success so the bot stops trying,
+	// and we exit early before Resend is ever invoked.
+	if (body.faxNumber) {
+		return {
+			success: true,
+			message: "Form processed successfully (intercepted).",
+		};
+	}
+
+	// 2. Basic validation safety check for required items
 	const { firstName, lastName, email, city, state } = body;
 	if (!firstName || !lastName || !email || !city || !state) {
 		throw createError({
@@ -17,9 +27,9 @@ export default defineEventHandler(async (event) => {
 	}
 
 	try {
-		// 2. Dispatch the email cleanly using your verified domain setup or Resend default onboarding profile
+		// 3. Dispatch the email cleanly
 		await resend.emails.send({
-			from: "James Frazier <hello@webdevjames.com>", // Change to your custom domain email once configured in Resend
+			from: "James Frazier <hello@webdevjames.com>",
 			to: "hello@webdevjames.com",
 			subject: `webdevjames Lead from ${firstName} ${lastName}`,
 			html: `
