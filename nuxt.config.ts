@@ -1,19 +1,30 @@
 import tailwindcss from "@tailwindcss/vite";
 
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
 	app: {
 		head: {
-			htmlAttrs: {
-				lang: "en",
-			},
+			htmlAttrs: { lang: "en" },
 			titleTemplate: "%s | James Frazier - webdevjames",
 			meta: [{ charset: "utf-8" }, { name: "viewport", content: "width=device-width, initial-scale=1" }, { name: "author", content: "James Frazier" }],
 		},
 	},
+
+	// 1. ADD SECURITY HEADERS TO ALL ROUTES ('/**')
+	routeRules: {
+		"/**": {
+			headers: {
+				"X-Content-Type-Options": "nosniff",
+				"X-Frame-Options": "SAMEORIGIN",
+				"X-XSS-Protection": "0",
+				"Referrer-Policy": "strict-origin-when-cross-origin",
+				"Permissions-Policy": "camera=(), microphone=(), geolocation=(), interest-cohort=()",
+				"Content-Security-Policy": "frame-ancestors 'self'; object-src 'self'; upgrade-insecure-requests",
+			},
+		},
+	},
+
 	compatibilityDate: "2025-07-15",
 	devtools: { enabled: true },
-	// 1. Tell Nuxt where your master global stylesheet lives
 	css: ["~~/assets/css/main.css"],
 	vite: {
 		plugins: [tailwindcss()],
@@ -24,11 +35,8 @@ export default defineNuxtConfig({
 
 	modules: ["@nuxt/icon", "@nuxt/fonts", "@nuxt/content", "nuxt-swiper", "@vercel/speed-insights", "nuxt-gtag"],
 	content: {
-		renderer: {
-			anchorLinks: false,
-		},
+		renderer: { anchorLinks: false },
 	},
-
 	gtag: {
 		id: "G-S5V1B3FSBG",
 	},
