@@ -121,7 +121,7 @@ body {
 		@apply inline-flex relative overflow-hidden cursor-pointer bg-blue-500 px-6 py-2 md:px-8 md:py-3 mt-4 rounded-3xl z-2;
 
 		span {
-			@apply relative z-3 text-white font-medium text-sm;
+			@apply relative z-3 text-white font-medium text-xs md:text-sm tracking-wide;
 		}
 
 		&:before {
@@ -159,7 +159,7 @@ body {
 	@apply bg-linear-to-b from-cyan-500 to-blue-500;
 
 	.container .container-inner {
-		@apply pt-35;
+		@apply pt-35 md:pt-50;
 	}
 }
 

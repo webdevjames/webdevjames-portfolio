@@ -42,7 +42,7 @@ Creating a home page featuring the most prominent call-to-action areas creates a
 ::
 
 
-::half-half-blocks{reverse="true"}
+::half-half-blocks{reverse=true}
 #half-image
 ![Project Detail](/webdevjames-project-azarchitecture-demographics.jpg)
 

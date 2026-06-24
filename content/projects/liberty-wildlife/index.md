@@ -38,7 +38,7 @@ Somewhere over the desert horizon was a better approach to design. Making use of
 ::
 
 
-::half-half-blocks{reverse="true"}
+::half-half-blocks{reverse=true}
 #half-image
 ![Project Detail](/webdevjames-project-liberty-wildlife-hatching.jpg)
 

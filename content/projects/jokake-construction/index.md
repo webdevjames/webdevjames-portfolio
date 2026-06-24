@@ -37,7 +37,7 @@ Getting to know the team is what puts the heart in any business. These proud emp
 ::
 
 
-::half-half-blocks{reverse="true"}
+::half-half-blocks{reverse=true}
 #half-image
 ![Project Detail](/webdevjames-project-jokake-construction-proof.jpg)
 

@@ -38,7 +38,7 @@ Their team required a site that easy to manage since pricing and availability ch
 ::
 
 
-::half-half-blocks{reverse="true"}
+::half-half-blocks{reverse=true}
 #half-image
 ![Project Detail](/webdevjames-project-2121-modern-urban-living-floorplan.jpg)
 

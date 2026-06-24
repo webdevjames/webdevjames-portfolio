@@ -40,7 +40,7 @@ An interactive and resource-heavy Timeline was created to feature dates of disco
 ::
 
 
-::half-half-blocks{reverse="true"}
+::half-half-blocks{reverse=true}
 #half-image
 ![Project Detail](/webdevjames-project-becoming-human-resources.jpg)
 

@@ -37,7 +37,7 @@ The events were the hub of the site. Vendors were able to submit their events to
 ::
 
 
-::half-half-blocks{reverse="true"}
+::half-half-blocks{reverse=true}
 #half-image
 ![Project Detail](/webdevjames-project-scottsdazzle-has-it-all.jpg)
 

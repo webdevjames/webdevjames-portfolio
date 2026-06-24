@@ -37,7 +37,7 @@ The About page for the John Douglas site features a simple, yet effective, timel
 ::
 
 
-::half-half-blocks{reverse="true"}
+::half-half-blocks{reverse=true}
 #half-image
 ![Project Detail](/webdevjames-project-john-douglas-architects-projects.jpg)
 

@@ -40,7 +40,7 @@ Luckily, this area was easy to showcase. It's gorgeous landscape and active comm
 ::
 
 
-::half-half-blocks{reverse="true"}
+::half-half-blocks{reverse=true}
 #half-image
 ![Project Detail](/webdevjames-project-sanctuary-at-watson-lake-imagine.jpg)
 

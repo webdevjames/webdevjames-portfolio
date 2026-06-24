@@ -36,7 +36,7 @@ The A-I-R office mascot - hidden throughout their project imagery - is a curious
 ::
 
 
-::half-half-blocks{reverse="true"}
+::half-half-blocks{reverse=true}
 #half-image
 ![Project Detail](/webdevjames-project-fairtrade-exercise.jpg)
 

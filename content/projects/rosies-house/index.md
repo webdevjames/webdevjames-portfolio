@@ -38,7 +38,7 @@ The new Rosie's House website was designed and constructed to guide parents and 
 ::
 
 
-::half-half-blocks{reverse="true"}
+::half-half-blocks{reverse=true}
 #half-image
 ![Project Detail](/webdevjames-project-rosies-house-stats.jpg)
 

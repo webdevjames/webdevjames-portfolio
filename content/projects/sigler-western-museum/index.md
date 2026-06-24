@@ -39,7 +39,7 @@ The artists are the heroes of every museum. They are the reason people visit Sig
 ::
 
 
-::half-half-blocks{reverse="true"}
+::half-half-blocks{reverse=true}
 #half-image
 ![Project Detail](/webdevjames-project-sigler-western-museum-exhibitions-events.jpg)
 

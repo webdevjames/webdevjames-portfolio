@@ -16,9 +16,9 @@
 </script>
 <template>
 	<div v-if="page">
-		<section class="section-main contained section-intro relative overflow-y-hidden bg-no-repeat bg-cover h-[75vw] min-h-[70vh] max-h-[875px] items-end!" :style="{ backgroundImage: `url(${page.heroImage})`, backgroundPosition: `${page.heroPosition}` }">
+		<section class="section-main contained section-intro relative overflow-y-hidden bg-no-repeat bg-cover h-auto min-h-[80vh] items-end!" :style="{ backgroundImage: `url(${page.heroImage})`, backgroundPosition: `${page.heroPosition}` }">
 			<div class="container z-2">
-				<div class="container-inner py-8!">
+				<div class="container-inner">
 					<p class="subheading">Portfolio Project</p>
 					<h1>{{ page.title }}</h1>
 					<p>{{ page.description }}</p>
@@ -56,10 +56,10 @@
 		<section class="section-main section-intro">
 			<div class="container">
 				<div class="container-inner">
-					<h1 class="text-center">Project not found</h1>
-					<p class="text-white text-center">Please go back to the Portfolio.</p>
+					<h1 class="text-white">Project not found</h1>
+					<p class="text-white">Please go back to the Portfolio.</p>
 					<div class="button-wrap mt-0!">
-						<NuxtLink to="/portfolio" class="button"><span>Back to Portfolio</span></NuxtLink>
+						<NuxtLink to="/portfolio" class="button alt"><span>Back to Portfolio</span></NuxtLink>
 					</div>
 				</div>
 			</div>

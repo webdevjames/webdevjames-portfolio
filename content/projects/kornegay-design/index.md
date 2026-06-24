@@ -37,7 +37,7 @@ Prior to the acquisition by Landscape Forms, Kornegay Design was founded by Larr
 ::
 
 
-::half-half-blocks{reverse="true"}
+::half-half-blocks{reverse=true}
 #half-image
 ![Project Detail](/webdevjames-project-kornegay-design-cast.jpg)
 

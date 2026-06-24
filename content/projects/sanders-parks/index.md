@@ -36,7 +36,7 @@ Law firms can be intimidating but trust me, after meeting with the leadership at
 ::
 
 
-::half-half-blocks{reverse="true"}
+::half-half-blocks{reverse=true}
 #half-image
 ![Project Detail](/webdevjames-project-sanders-parks-playground.jpg)
 

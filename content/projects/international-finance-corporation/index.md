@@ -37,7 +37,7 @@ EDGE Buildings features dynamic green certification statistics from their manage
 ::
 
 
-::half-half-blocks{reverse="true"}
+::half-half-blocks{reverse=true}
 #half-image
 ![Project Detail](/webdevjames-project-ifc-ifcsia.jpg)
 

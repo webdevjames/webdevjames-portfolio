@@ -30,14 +30,14 @@ My goal with this website was not only to meet their needs, but to exceed them -
 
 #half-title
 
-### Did you find what you were looking for today?
+### Hey, that was easy
 
 #half-description
-We've all heard that. Most of the time we say "yes" when sometimes the answer is actually "no". In this case, the site was built with the idea that families of all experiences will have an easy time navigating the site. Navigation menus with "Who We Are", "What We Do", and "Family Inquiry" aren't anything groundbreaking, but they are a simple for all users to understand. Simplicity was the idea. In the same vein, the Advanced Custom Fields for the Admin of the site made content entry simple and standardized.
+The site was built with the idea that families of all experiences will have an easy time navigating the site to find exactly what they're looking for. Navigation menus with "Who We Are", "What We Do", and "Family Inquiry" aren't anything groundbreaking, but they are a simple for all users to understand. Simplicity was the idea. In the same vein, the Advanced Custom Fields for the Admin area of the site made content entry simple, standardized, and easy to find.
 ::
 
 
-::half-half-blocks{reverse="true"}
+::half-half-blocks{reverse=true}
 #half-image
 ![Project Detail](/webdevjames-project-az-cancer-options.jpg)
 
@@ -46,7 +46,7 @@ We've all heard that. Most of the time we say "yes" when sometimes the answer is
 ### Give them options
 
 #half-description
-Looking to donate? Easy. Want to be a sponsor? No problem. Need a dollar-for-dollar tax credit? Here's that info. There are a multitude of ways to support AZ Cancer Foundation for Children and the website provides them - easily and with all of the information you need to be confident in your giving.
+Looking to donate? Easy. Want to be a sponsor? No problem. Need a dollar-for-dollar tax credit? Here's that info. There are a multitude of ways to support AZ Cancer Foundation for Children and the website provides them - easily and with all of the information supporters need to be confident in their giving.
 ::
 
 
@@ -59,6 +59,6 @@ Looking to donate? Easy. Want to be a sponsor? No problem. Need a dollar-for-dol
 ### Mark your calendar
 
 #half-description
-Events drive donations, so this area was an important feature of the site. Adding Events was made simple using Advanced Custom Fields while the template code automatically sorted by date. Imagery from past events encourage sign-ups (and they do look fun). From premium auctions to golf tournaments, there is something for everyone to get excited for. You can see what's upcoming, have some fun, and be a hero to kids with cancer in the process.
+Events drive donations, so this area was an important feature of the site. Adding Events was made simple using Advanced Custom Fields while the template code automatically sorted by date. Imagery from past events encourage sign-ups (and they do look fun). From premium auctions to golf tournaments, there is something for everyone to get excited for. Users can see what's upcoming, have some fun, and be a hero to kids with cancer in the process.
 ::
 ::
