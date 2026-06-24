@@ -2,6 +2,7 @@
 title: "Jokake Construction"
 category: ""
 heroImage: "/webdevjames-project-banner-jokake-construction.jpg"
+heroPosition: "center center"
 blurb: "Since 1983, Jokake's presence in commercial construction has expanded throughout the Southwest."
 description: "Collaborators working together to create innovation in the built environment becoming an extension of your team - engrained in your business purpose."
 specs:

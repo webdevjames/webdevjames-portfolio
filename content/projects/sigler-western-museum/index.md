@@ -2,6 +2,7 @@
 title: "Sigler Western Museum"
 category: ""
 heroImage: "/webdevjames-project-banner-sigler-western-museum.jpg"
+heroPosition: "top center"
 blurb: "Sharing the diverse stories, cultures and experiences of the West."
 description: "Founded in 1960 and located in historic Wickenburg, Arizona, the Sigler Western Museum is home to a renowned collection of Western art and history."
 specs:

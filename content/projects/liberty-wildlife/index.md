@@ -2,6 +2,7 @@
 title: "Liberty Wildlife"
 category: ""
 heroImage: "/webdevjames-project-banner-liberty-wildlife.jpg"
+heroPosition: "center center"
 blurb: "Quality wildlife rehabilitation, education, and conservation services."
 description: "To nurture the nature of Arizona through wildlife rehabilitation, natural history education, and conservation services to the community."
 specs:

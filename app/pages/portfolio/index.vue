@@ -1,13 +1,37 @@
 <script setup lang="ts">
 	const { data: projects } = await useAsyncData("projects", () => queryCollection("projects").all());
+
+	useSeoMeta({
+		title: "Portfolio of James Frazier | webdevjames",
+		description: "View a sample of James Frazier's web development projects that have exceeded client expectations.",
+		ogTitle: "Portfolio of James Frazier | Full-Stack Web Developer",
+		ogDescription: "James Frazier's sample of web development projects for local and big brands.",
+		ogImage: "/default-social-card.jpg",
+		twitterImage: "/default-social-card.jpg",
+	});
+
+	useHead({
+		script: [
+			{
+				type: "application/ld+json",
+				innerHTML: JSON.stringify({
+					"@context": "https://schema.org",
+					"@type": "PortfolioPage",
+					name: "Portfolio of James Frazier",
+					description: "The portfolio page for webdevjames agency and freelance web development services.",
+					url: "https://webdevjames.com/portfolio",
+				}),
+			},
+		],
+	});
 </script>
 <template>
 	<section class="section-main contained section-intro">
 		<div class="container">
 			<div class="container-inner">
 				<p class="subheading">Portfolio</p>
-				<h1>A collection of my favorite agency and freelance web projects</h1>
-				<p>This is collection of featured web and HTML email development projects that span over a decade. This is not an exhaustive list. To reference more projects, please refer to my LinkedIn profile.</p>
+				<h1>Agency and freelance web design and development projects</h1>
+				<p>This is a collection of featured web and HTML email development projects that span over a decade. This is not an exhaustive list, so if you would like to see more, please refer to my LinkedIn profile.</p>
 				<div class="button-wrap multi">
 					<NuxtLink to="/contact" target="_self" class="button alt">
 						<span>Hire Me</span>

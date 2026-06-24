@@ -2,6 +2,15 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+	app: {
+		head: {
+			htmlAttrs: {
+				lang: "en",
+			},
+			titleTemplate: "%s | James Frazier - webdevjames",
+			meta: [{ charset: "utf-8" }, { name: "viewport", content: "width=device-width, initial-scale=1" }, { name: "author", content: "James Frazier" }],
+		},
+	},
 	compatibilityDate: "2025-07-15",
 	devtools: { enabled: true },
 	// 1. Tell Nuxt where your master global stylesheet lives

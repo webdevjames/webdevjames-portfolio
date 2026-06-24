@@ -2,6 +2,7 @@
 title: "azarchitecture"
 category: "Active Development"
 heroImage: "/webdevjames-project-banner-azarchitecture.jpg"
+heroPosition: "center center"
 blurb: "The only Real Estate firm in Arizona specializing in the 'unique homes' market."
 description: "azarchitecture / Jarson & Jarson is the only Real Estate firm in Arizona that specializes in the sales and marketing of Architecturally Unique Homes™"
 specs:

@@ -40,6 +40,30 @@
 			link: "https://laughingponyrescue.org/",
 		},
 	];
+
+	useSeoMeta({
+		title: "About James Frazier | webdevjames",
+		description: "Get to know James Frazier and how he can help your web development team succeed.",
+		ogTitle: "About James Frazier | Full-Stack Web Developer",
+		ogDescription: "Learn how James Frazier can help grow or integrate into your web development team.",
+		ogImage: "/default-social-card.jpg",
+		twitterImage: "/default-social-card.jpg",
+	});
+
+	useHead({
+		script: [
+			{
+				type: "application/ld+json",
+				innerHTML: JSON.stringify({
+					"@context": "https://schema.org",
+					"@type": "ContactPage",
+					name: "Contact James Frazier",
+					description: "The about page for webdevjames agency and freelance web development services.",
+					url: "https://webdevjames.com/about",
+				}),
+			},
+		],
+	});
 </script>
 <template>
 	<section class="section-main contained section-intro">

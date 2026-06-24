@@ -4,6 +4,20 @@
 		htmlAttrs: {
 			class: "scroll-smooth",
 		},
+		script: [
+			{
+				type: "application/ld+json",
+				// We stringify a JavaScript object to create the JSON-LD format
+				innerHTML: JSON.stringify({
+					"@context": "https://schema.org",
+					"@type": "Person",
+					name: "James Frazier",
+					jobTitle: "Web Developer",
+					url: "https://webdevjames.com",
+					sameAs: ["https://www.linkedin.com/in/webdevjames", "https://github.com/webdevjames"],
+				}),
+			},
+		],
 	});
 </script>
 <template>

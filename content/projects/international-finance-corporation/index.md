@@ -2,6 +2,7 @@
 title: "International Finance Corporation"
 category: ""
 heroImage: "/webdevjames-project-banner-ifc.jpg"
+heroPosition: "center center"
 blurb: "Initiatives dedicated to helping communities and preserving the planet."
 description: "From green building certification, empowering under-privileged communities to thrive, and solar energy initiatives, IFC is a global leader in making the world a better place to live."
 specs:

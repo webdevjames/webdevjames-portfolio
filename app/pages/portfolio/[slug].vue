@@ -3,10 +3,20 @@
 
 	// 1. Fetch the specific project based on the URL slug
 	const { data: page } = await useAsyncData(route.path, () => queryCollection("projects").path(route.path.replace("/portfolio", "/projects")).first());
+
+	// 2. Automatically generate all SEO and Social Share tags!
+	useSeoMeta({
+		title: () => `${page.value?.title} | James Frazier - Portfolio`,
+		description: () => page.value?.description || "View my latest web development project.",
+		ogTitle: () => page.value?.title,
+		ogDescription: () => page.value?.description,
+		ogImage: () => page.value?.image || "/default-social-card.jpg",
+		twitterImage: "/default-social-card.jpg",
+	});
 </script>
 <template>
 	<div v-if="page">
-		<section class="section-main contained section-intro relative overflow-y-hidden bg-no-repeat bg-cover bg-position-[center_top] h-[75vw] min-h-[70vh] max-h-[875px] items-end!" :style="{ backgroundImage: `url(${page.heroImage})` }">
+		<section class="section-main contained section-intro relative overflow-y-hidden bg-no-repeat bg-cover h-[75vw] min-h-[70vh] max-h-[875px] items-end!" :style="{ backgroundImage: `url(${page.heroImage})`, backgroundPosition: `${page.heroPosition}` }">
 			<div class="container z-2">
 				<div class="container-inner py-8!">
 					<p class="subheading">Portfolio Project</p>

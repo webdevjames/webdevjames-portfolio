@@ -2,6 +2,7 @@
 title: "Kornegay Design"
 category: ""
 heroImage: "/webdevjames-project-banner-kornegay-design.jpg"
+heroPosition: "center center"
 blurb: "Concrete casting design and inspiration within the intricacies of nature."
 description: "Kornegay Design's products are more than quality handcrafted site furnishings; they are sculptural elements that enhance any environment."
 specs:

@@ -2,6 +2,7 @@
 title: "Becoming Human"
 category: ""
 heroImage: "/webdevjames-project-banner-becoming-human.jpg"
+heroPosition: "center center"
 blurb: "Our mission is to provide a wide spectrum of information on discoveries in the field."
 description: "For the past 23 years, BecomingHuman.org has helped to enlighten and educate thousands of teachers, students, and the community of life-long learners about the science of how human life developed on Earth."
 specs:

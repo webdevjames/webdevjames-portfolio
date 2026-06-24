@@ -10,6 +10,7 @@ export default defineContentConfig({
 				title: z.string(),
 				category: z.string(),
 				heroImage: z.string(),
+				heroPosition: z.string(),
 				blurb: z.string(),
 				description: z.string(),
 				specs: z.array(z.string()).optional(),
