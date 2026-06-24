@@ -118,4 +118,11 @@
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
+
+  <url>
+    <loc>https://webdevjames.com/privacy</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
 </urlset>

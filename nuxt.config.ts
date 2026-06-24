@@ -22,10 +22,14 @@ export default defineNuxtConfig({
 		},
 	},
 
-	modules: ["@nuxt/icon", "@nuxt/fonts", "@nuxt/content", "nuxt-swiper", "@vercel/speed-insights"],
+	modules: ["@nuxt/icon", "@nuxt/fonts", "@nuxt/content", "nuxt-swiper", "@vercel/speed-insights", "nuxt-gtag"],
 	content: {
 		renderer: {
-			anchorLinks: false, // This stops Nuxt from turning headings into <a> tags
+			anchorLinks: false,
 		},
+	},
+
+	gtag: {
+		id: "G-S5V1B3FSBG",
 	},
 });
