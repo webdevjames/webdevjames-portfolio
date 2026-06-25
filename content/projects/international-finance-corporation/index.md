@@ -32,7 +32,7 @@ Because the teams were already familiar with the WordPress platform, maintaining
 ### EDGE Buildings
 
 #half-description
-EDGE Buildings features dynamic green certification statistics from their managed API, showcases their primary directive (the EDGE App), and features EDGE Champions - EDGE certified companies that make strides in green building development. In addition, the site hosts a vast number of downloadable resources for leaders in the green market, events calendar, and EDGE-approved certifier pricing.  
+EDGE Buildings features dynamic green certification statistics from their managed API, showcases their primary directive (the EDGE App), and features EDGE Champions - EDGE certified companies that make strides in green building development. In addition, the site hosts a vast number of downloadable resources for leaders in the green market, an events calendar, and EDGE-approved certifier pricing.  
 :project-button{link="https://edgebuildings.com/" text="Visit EDGE Buildings"} 
 ::
 
@@ -60,7 +60,7 @@ IFCSIA is a resource dedicated to showcasing trends, takeaways, and trailblazers
 ### Scaling Solar
 
 #half-description
-In emerging markets, solar has the ability to deliver power to communities at less cost and more long-term benefits. This website was built to provide information regarding financial options to governments seeking solar power alternatives to coal-fired power. This site features successful project locations, industry-related news articles, and showcases statistics of energy and cost savings based on counties enrolled in the program.
+In emerging markets, solar has the ability to deliver power to communities at less cost. The site features case studies proving long-term benefits of transitioning to solar power. A primary goal for the site was to provide information regarding financial options to governments seeking solar power alternatives to coal-fired power. This site features successful project locations, industry-related news articles, and showcases statistics of energy and cost savings based on counties enrolled in the program.
 :project-button{link="https://www.scalingsolar.org/" text="Visit Scaling Solar"}
 ::
 ::

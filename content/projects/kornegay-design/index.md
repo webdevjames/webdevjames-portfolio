@@ -15,9 +15,9 @@ specs:
 ::project-section-contained
 ## Project Overview
 
-Kornegay Design's leadership needed a website to reflect the modern and simple nature of their print design material. The end result was a site that was easy to navigate between pages, posts and products, gather more information about any or all products, and featured large imagery to showcase their iconic products in real applications and landscapes.
+Kornegay Design's leadership needed a website to reflect the modern and simple nature of their print design material. The end result was a site that was easy to navigate between pages, posts, and products. Users could also gather more information about any or all products. The featured large imagery showcases their iconic products in real applications and landscapes.
 
-The website would also need to include automation when possible - making a single file upload or text entry field accessible across WordPress templates and Custom Post Types. Automation was thoroughly considered throughout the design and development process - finding ways to either implement, improve, or reconsider based on the need.
+The website would also need to include automation when possible - making a single file upload or text entry field accessible across WordPress templates and Custom Post Types. Automation was thoroughly considered before and throughout the design and development process - finding ways to either implement, improve, or reconsider based on the need.
 
 :project-button{link="https://kornegaydesign.com/" text="Visit Site"}
 ::
@@ -33,7 +33,7 @@ The website would also need to include automation when possible - making a singl
 ### A concrete foundation
 
 #half-description
-Prior to the acquisition by Landscape Forms, Kornegay Design was founded by Larry Kornegay in 1997. The site design and architecture were built as a reflection of Larry's vision for his concrete casts - clean lines and elegant imagery - with gray tones matching a concrete base. The website featured the products, history, and helpful information to consumers.  
+Prior to the acquisition by Landscape Forms, Kornegay Design was founded by Larry Kornegay in 1997. The site design and architecture were built as a reflection of Larry's vision for his concrete designs - clean lines and elegant imagery - with gray tones matching a concrete color base. The website features the products, history, and helpful information to consumers.  
 ::
 
 

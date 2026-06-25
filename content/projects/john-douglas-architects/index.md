@@ -33,7 +33,7 @@ What John received was a publication-style design, an easily-managed CMS using W
 ### Architectural history in the making
 
 #half-description
-The About page for the John Douglas site features a simple, yet effective, timeline without flashy graphics and animations. Like the rest of the site, it is simple, clean and refined to the point. The page serves much like a biography outlining John's roots in Arizona history, his journey to becoming an award-winning architect, and the projects that followed.
+The About page for the John Douglas site features a simple, yet effective, timeline without flashy graphics and animations. Like the rest of the site, it is simple, clean, and refined to the point. The page serves much like a biography outlining John's roots in Arizona history, his journey to becoming an award-winning architect, and the projects that followed.
 ::
 
 
@@ -46,7 +46,7 @@ The About page for the John Douglas site features a simple, yet effective, timel
 ### Leaving a legacy
 
 #half-description
-The website projects are where the site shines. Each project features large imagery, site plans, project details, and credits to building and design contractors. Behind each project are custom repeater modules built using Advanced Custom Fields so each project has a similar look and feel.
+The website projects are where the site shines. Each project features large imagery, site plans, project details, and credits to building and design contractors. Behind each project are custom repeater modules built using Advanced Custom Fields so each project has a similar look and feel - no matter the content entered.
 ::
 
 
@@ -59,6 +59,6 @@ The website projects are where the site shines. Each project features large imag
 ### And the award goes to...
 
 #half-description
-John's career in the architecture field has earned a vast number of Awards and accolades. He wanted a simple display method for these recognitions. Our goal was not to detract from the Projects, as those are the primary feature for the site. A simple list was displayed in chronological order by issuer. The same treatment was applied for the Publications in which John has been featured.
+John's career in the architecture field has earned him a vast number of Awards and accolades. He wanted a simple display method for these recognitions. Our goal was not to detract from the Projects, as those are the primary feature for the site. A simple list was displayed in chronological order by issuer. The same treatment was applied for the Publications in which John has been featured.
 ::
 ::

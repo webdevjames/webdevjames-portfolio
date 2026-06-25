@@ -4,7 +4,7 @@ category: ""
 heroImage: "/webdevjames-project-banner-becoming-human.jpg"
 heroPosition: "center center"
 blurb: "Our mission is to provide a wide spectrum of information on discoveries in the field."
-description: "For the past 23 years, BecomingHuman.org has helped to enlighten and educate thousands of teachers, students, and the community of life-long learners about the science of how human life developed on Earth."
+description: "For the past 23 years, Becoming Human has helped to enlighten and educate thousands of teachers, students, and a community of life-long learners about the theories, teachings, and science of human evolution on Earth."
 specs:
   - "WordPress"
   - "Advanced Custom Fields"
@@ -16,9 +16,9 @@ specs:
 ::project-section-contained
 ## Project Overview
 
-Arizona State University's Institute of Human Origins (IHO) originally utilized a website reliant on Adobe Flash Player and was virtually uneditable by their internal team. It required the intervention of a "Web Master" (yes, it was that old).
+Arizona State University's Institute of Human Origins (IHO) originally utilized a website reliant on Adobe Flash Player and was virtually uneditable by their internal team. It required the intervention of a "Web Master" (yes, it was that old) for the most minor changes.
 
-The IHO team's goal in commissioning a rebuild of the site was a to assess the existing data, provide a full restructuring of the existing content and sitemap, create a category-based "Pathways to Discovery", provide learning resources to ASU students, and reimagine their existing Timeline of discoveries.
+The IHO team's goal in budgeting and commissioning a rebuild of the site was to assess the existing data, provide a full restructuring of the existing content and sitemap, create a category-based "Pathways to Discovery", provide learning resources to ASU students, and reimagine their existing Timeline of discoveries.
 
 Perhaps the most crucial aspect of the rebuild was ensuring that all aspects of the site were available to the team to make changes, unlike previously.
 
@@ -36,7 +36,7 @@ Perhaps the most crucial aspect of the rebuild was ensuring that all aspects of 
 ### When in the world?
 
 #half-description
-An interactive and resource-heavy Timeline was created to feature dates of discovery. This included a color-coded, clickable era of time with corresponding fossil discoveries dictated by epoch, environmental changes, and species present. Each discovery could be explored deeper for more information.
+An interactive and resource-heavy Timeline was created to highlight dates of discovery. This included a color-coded, interactive era of time with corresponding fossil discoveries in relation to epoch, environmental changes, and species present. Each discovery could be explored deeper for more information.
 ::
 
 

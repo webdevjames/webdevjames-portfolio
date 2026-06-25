@@ -9,21 +9,24 @@
 	});
 </script>
 <template>
-	<section class="section-main h-dvh blueprint-grid">
+	<section class="section-main section-intro h-dvh blueprint-grid relative items-start!">
 		<div class="container">
-			<div class="container-inner max-w-250">
-				<h1 class="text-4xl/12 md:text-5xl/15 lg:text-6xl/18">Full-Stack Web Developer Specializing in Agency-Scale Web Applications</h1>
-				<div class="button-wrap multi">
-					<NuxtLink to="/portfolio" class="button">
-						<span>See the Work</span>
-					</NuxtLink>
-					<NuxtLink to="/resume-james-frazier.pdf" external target="_blank" class="button">
-						<span>View Resume</span>
+			<div class="container-inner pt-25! md:pt-35!">
+				<img src="/webdevjames-james-frazier-portrait.png" alt="James Frazier Portrait" class="w-full md:w-150 lg:w-175 h-auto absolute bottom-0 right-0 lg:right-[10vw] z-1 brightness-75 opacity-85" />
+				<div class="hero-content w-full z-2">
+					<h1 class="text-4xl/11! md:text-5xl/14! lg:text-6xl/18! font-bold">Full-Stack Web Developer Specializing in Agency-Scale Web Applications</h1>
+					<div class="button-wrap multi">
+						<NuxtLink to="/portfolio" class="button alt">
+							<span>See the Work</span>
+						</NuxtLink>
+						<NuxtLink to="/resume-james-frazier.pdf" external target="_blank" class="button alt">
+							<span>View Resume</span>
+						</NuxtLink>
+					</div>
+					<NuxtLink to="#next" class="absolute bottom-0 left-0 w-full h-20 flex items-center justify-center z-4">
+						<Icon name="lucide:chevron-down" class="animate-bounce text-center m-auto inline-block text-4xl" />
 					</NuxtLink>
 				</div>
-				<NuxtLink to="#next" class="absolute bottom-0 left-0 w-full h-20 flex items-center justify-center">
-					<Icon name="lucide:chevron-down" class="animate-bounce text-center m-auto inline-block text-4xl" />
-				</NuxtLink>
 			</div>
 		</div>
 	</section>

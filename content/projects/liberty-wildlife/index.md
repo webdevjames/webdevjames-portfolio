@@ -16,9 +16,9 @@ specs:
 ::project-section-contained
 ## Project Overview
 
-Liberty Wildlife needed a website redesign to fit their new location feel, to support donor capabilities, easily access their internal resource database, attracting new volunteers and educating the public regarding wildlife preservation. They were already familiar with WordPress, so sticking with the platform was crucial.
+Liberty Wildlife needed a website redesign to fit their new location aesthetic, support donor capabilities, easily access their internal resource database, attract new volunteers, and educate the public regarding wildlife preservation. They were already familiar with WordPress, so sticking with the platform was crucial.
 
-This time around, making the website visitor experience more personal was a primary goal in design and development. In this way, a more visual experience was applied to the location information, animal ambassadors and staff / volunteers. 
+This time around, making the website visitor experience more personal was a primary goal in design and development. In this way, a more visual experience was applied to the location information, animal ambassadors, and staff / volunteers. 
 
 :project-button{link="https://libertywildlife.org/" text="Visit Site"}
 ::
@@ -34,7 +34,7 @@ This time around, making the website visitor experience more personal was a prim
 ### Soaring the skies
 
 #half-description
-Somewhere over the desert horizon was a better approach to design. Making use of quality photography made the layout a cinch - large imagery curated based on the page content. Placing more visual prominence on elements like Animal Ambassadors, publications (blog, news articles, newsletters, etc) created a much more user-friendly experience to digest the vast amount of content available.
+Somewhere over the desert horizon was a better approach to design. Making use of quality photography made the layout a cinch - I just needed to find the perfect imagery based on the page content. Placing more visual prominence on elements like Animal Ambassadors and Publications (blog posts, news articles, newsletters, etc) created a much more user-friendly experience to digest the vast amount of content available.
 ::
 
 
@@ -47,7 +47,7 @@ Somewhere over the desert horizon was a better approach to design. Making use of
 ### Hatching new life
 
 #half-description
-A newer, modern design was not the only reason to move forward for Liberty Wildlife. Old, outdated theme coding and features that are no longer supported had triggered breaking issues with daily content entry. With a fresh install of WordPress, long-term supported WordPress plugins and a custom child theme, their team can take control once again - making updates, additions and changes with ease. The new, color-contrasted design fits their brand and new building architecture.
+A newer, modern design was not the only reason to move forward for Liberty Wildlife. Old, outdated theme coding and features that are no longer supported had triggered breaking issues with daily content entry. With a fresh install of WordPress, use of long-term supported WordPress plugins, and a custom child theme, their team can take control once again - making updates, additions and changes with ease. The new, color-contrasted design fits their brand and new building architecture.
 ::
 
 
@@ -60,6 +60,6 @@ A newer, modern design was not the only reason to move forward for Liberty Wildl
 ### Up close and personal
 
 #half-description
-Another primary goal for the new site was to put a heavy focus on reaching the community. Educating, supporting and engaging people about the beauty and fragility of Arizona wildlife was paramount. The site provides easy access to contact information, how-to's and what-to's regarding finding injured wildlife, and available bookings for Liberty Wildlife's facility and Animal Ambassadors.
+Another primary goal for the new site was to put a heavy focus on reaching the community. Educating, supporting and engaging people about the beauty and fragility of Arizona wildlife was paramount. The site provides easy access to injured wildlife drop-off, contact information, how-to's and what-to's regarding finding injured wildlife, and available bookings for Liberty Wildlife's facility and Animal Ambassadors.
 ::
 ::

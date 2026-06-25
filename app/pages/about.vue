@@ -66,7 +66,7 @@
 	});
 </script>
 <template>
-	<section class="section-main contained section-intro">
+	<section class="section-main contained section-intro blueprint-grid">
 		<div class="container">
 			<div class="container-inner text-left">
 				<p class="subheading">About</p>
@@ -123,7 +123,6 @@
 							disableOnInteraction: true,
 							pauseOnMouseEnter: true,
 						}"
-						:modules="[SwiperPagination]"
 						:pagination="{ clickable: true }"
 						class="z-1 w-full px-6 md:px-10 pt-8 pb-4 border border-white/20 bg-radial-[at_25%_25%] from-white/20 to-white/5 to-75% rounded-xl m-auto"
 					>
@@ -197,6 +196,13 @@
 						<span>Standardized local development methods (MAMP Pro, Sequel Pro, Local, Webpack, Sass, Tailwind CSS, Bootstrap)</span>
 					</li>
 				</ul>
+			</div>
+		</div>
+	</RevealSection>
+	<RevealSection class="section-main">
+		<div class="container">
+			<div class="container-inner pb-0!">
+				<img src="/webdevjames-about-james-frazier.jpg" alt="About James Frazier" class="w-full h-auto rounded-xl" />
 			</div>
 		</div>
 	</RevealSection>

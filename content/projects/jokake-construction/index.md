@@ -17,7 +17,7 @@ specs:
 
 Jokake Construction came to us with the challenge of solidifying their online presence, retaining and obtaining the best contractors and employees in the industry, and showcasing their premier services in construction.
 
-The leadership team was solid, the company culture was amazing, they get involved in supporting the AZ community, and their work spoke for itself. Now they were ready to make that public knowledge.
+The leadership team was solid, the company culture was amazing, they get involved in supporting the local community, and their work spoke for itself. Now they were ready to make that public knowledge.
 
 :project-button{link="https://jokake.com/" text="Visit Site"}
 ::
@@ -43,10 +43,10 @@ Getting to know the team is what puts the heart in any business. These proud emp
 
 #half-title
 
-### Talent beyond measure... with proof
+### Proven talent beyond measure
 
 #half-description
-The Portfolio page features proven talent from project concept to completion. Jokake specializes in multiple areas of expertise in the commercial construction industry, so it was important for their potential customers to easily navigate projects by category. Equally important, showcasing each project's imagery in individual galleries brings each project page to life.
+The Portfolio page features proven talent from project concept to completion. Jokake specializes in multiple areas of expertise in the commercial construction industry, so it was important for their potential customers to easily navigate projects by category. Showcasing each project's imagery in individual galleries brings each project page to life.
 ::
 
 

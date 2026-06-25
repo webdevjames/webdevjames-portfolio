@@ -18,7 +18,7 @@ specs:
 
 The project management team for the 2121 - Modern Urban Development upscale complex required a website that was modern, sophisticated, and could feature the wide variety of amenities they have to offer. The design was crafted using hard edges and contrasting shades with a single pop of color for specific call-out elements.
 
-Their team required a site that easy to manage since pricing and availability changes often. They also required integration of property management software for automated content control.
+Their team required a site that is easy to manage since pricing and availability changes often. They also required integration of property management software for automated content control.
 
 :project-button{link="https://2121phx.com/" text="Visit Site"}
 ::

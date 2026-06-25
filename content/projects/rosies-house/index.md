@@ -16,7 +16,7 @@ specs:
 ::project-section-contained
 ## Project Overview
 
-Rosie's House was in need of a re-design after 10 years with their previous website. They wanted to retain WordPress as their CMS and Enfold as their parent theme (using the Avia Layout Builder). Their editing process was internally streamlined, but the design lacked a modern touch. With all of the good they do for the community, I was happy to be involved in helping build their future.
+Rosie's House was in need of a redesign after 10 years with their previous website. They wanted to retain WordPress as their CMS and Enfold as their parent theme (using the Avia Layout Builder). Their content management process was internally streamlined, but the design lacked a modern touch. With all of the good they do for the community, I was happy to be involved in helping build their future.
 
 The site is home to a variety of content types including events, program information, and donor opportunities. Each portion of the site needed to be a cohesive user experience and fully manageable by the marketing team. 
 

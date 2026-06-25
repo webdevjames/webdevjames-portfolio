@@ -18,7 +18,7 @@ specs:
 ::project-section-contained
 ## Project Overview
 
-As premier real estate agents of _Architecturally Unique Homes™_, azarchitecture delivers stellar service with decades of experience in pairing the perfect unique home for the unique buyer. With exclusive listings and MLS listings available, the website needed to showcase their exclusive properties prominently, feature their real estate publications and make the user experience fast and cohesive. To meet these requirements while maintaining their current method of content management (WordPress), the Nuxt framework was built for the front-end to deliver a SPA experience while WordPress remained the CMS in a "headless" format.
+As premier real estate agents of _Architecturally Unique Homes™_, azarchitecture delivers stellar service with decades of experience in pairing the perfect unique home for the unique buyer. With exclusive listings and MLS listings available, the website needed to showcase their exclusive properties prominently, feature their real estate publications, and make the user experience fast and cohesive. To meet these requirements while maintaining their current method of content management (WordPress), the Nuxt framework was built for the front-end to deliver a SPA experience while WordPress remained the CMS in a "headless" state.
 
 **Note:** This project is currently in development. Please use the gateway credentials provided below:
 
@@ -38,7 +38,7 @@ As premier real estate agents of _Architecturally Unique Homes™_, azarchitectu
 ### Home is the hub
 
 #half-description
-Creating a home page featuring the most prominent call-to-action areas creates a hub-like feel. With sections like new and featured listings, recently sold listings, magazine subscription and more, it's a perfect layout treatment to encourage deeper buyer engagement.
+Creating a home page featuring the most prominent call-to-action areas creates a hub-like feel. With sections like new and featured listings, recently sold listings, a magazine subscription and more, it's a perfect layout treatment to encourage deeper home buyer engagement.
 ::
 
 
@@ -51,7 +51,7 @@ Creating a home page featuring the most prominent call-to-action areas creates a
 ### Tailored for demographics
 
 #half-description
-The unique home buyer is different than the standard home buyer. azarchitecture clientele are intrigued by the property architect, style and historic relevance of the property or neighborhood. With this in mind, only relevant demographic data is displayed. No frills or features that can obstruct interest.
+The unique home buyer is different than the standard home buyer. azarchitecture clientele are intrigued by the property architect, style, and historic relevance of the property or neighborhood. With this in mind, only relevant demographic data is displayed. No frills or features that can obstruct interest.
 ::
 
 
@@ -64,6 +64,6 @@ The unique home buyer is different than the standard home buyer. azarchitecture 
 ### Turbo mode engaged
 
 #half-description
-Nuxt is a lightning-fast frontend framework to display WordPress REST API data. No more full-page reloading and theme asset loading. The team's WordPress property entry method was kept in place, but bloating elements like plugins and themes were able to be stripped down to "bare bones". This not only reduces the strain on the server, but enhances the user experience for the azarchitecture team and their clients as well.
+Nuxt is a lightning-fast frontend framework to display WordPress REST API data. No more full-page reloading and bloated theme asset dependencies. The team's WordPress property entry method was kept in place, but resource-heavy elements like plugins and themes were able to be stripped down to "bare bones". This not only reduces the strain on the server, but enhances the user experience (load time, especially) for the azarchitecture team and their clients as well.
 ::
 ::

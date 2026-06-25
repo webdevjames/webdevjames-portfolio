@@ -74,7 +74,7 @@
 	});
 </script>
 <template>
-	<section class="section-main contained section-intro">
+	<section class="section-main contained section-intro blueprint-grid">
 		<div class="container">
 			<div class="container-inner text-left">
 				<p class="subheading">Contact</p>

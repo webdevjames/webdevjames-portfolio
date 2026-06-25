@@ -1,6 +1,6 @@
 <script setup lang="ts"></script>
 <template>
-	<section class="section-main contained section-intro">
+	<section class="section-main contained section-intro blueprint-grid">
 		<div class="container">
 			<div class="container-inner text-left">
 				<h1>Privacy Policy</h1>
@@ -9,7 +9,7 @@
 	</section>
 	<section class="section-main contained">
 		<div class="container">
-			<div class="container-inner text-left pb-0!">
+			<div class="container-inner text-left">
 				<p class="mb-4 text-xs">Last Updated: June 2026</p>
 				<p class="mb-4">This website (webdevjames.com) serves as my professional developer portfolio. This policy outlines how data is collected and used.</p>
 				<h4 class="text-xl font-bold text-white mt-8 mb-4">1. Information Collected Via the Contact Form</h4>

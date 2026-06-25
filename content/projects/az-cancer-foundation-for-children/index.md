@@ -15,7 +15,7 @@ specs:
 ::project-section-contained
 ## Project Overview
 
-Talk about a worthy cause... AZ Cancer Foundation was looking to revitalize their branding and website. This new goal would raise awareness of their existence and promote their availability to help in this space. They wanted to provide more information to families facing a diagnosis, inform families of next steps in the process, and be a haven for families in need of support. They also wanted to promote fundraiser events.
+Talk about a worthy cause... AZ Cancer Foundation was looking to revitalize their branding and website. This new goal would raise awareness of their existence and promote their availability to help in this space. They wanted to provide more information to families facing a difficult diagnosis, inform families of next steps in the process, and be a haven for families in need of support. They also wanted to promote fundraiser events.
 
 My goal with this website was not only to meet their needs, but to exceed them - to make site updates as effortless as possible. This frees their team to do more important and amazing work - helping kids and their families! They were familiar with WordPress as a CMS, so we stuck with that.
 

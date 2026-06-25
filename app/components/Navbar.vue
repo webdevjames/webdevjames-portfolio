@@ -19,10 +19,10 @@
 </script>
 
 <template>
-	<nav class="section-main fixed top-0 left-0 w-full h-[88px] z-50 transition-all duration-300">
-		<div class="container">
+	<nav class="section-main fixed top-0 left-0 w-full h-[75px] md:h-[88px] z-50 transition-all duration-300">
+		<div class="container px-2! md:px-8!">
 			<div class="container-inner p-0!">
-				<div class="relative w-full flex flex-row items-center justify-between gap-4 pl-6 md:pl-8 pr-6 md:pr-4 py-3 md:py-4 bg-black/80 backdrop-blur-xs rounded-4xl m-auto border border-white/10 shadow-xl">
+				<div class="relative w-full flex flex-row items-center justify-between gap-4 pl-5 md:pl-8 pr-5 md:pr-4 py-3 md:py-4 bg-black/80 backdrop-blur-xs rounded-4xl m-auto border border-white/10 shadow-xl">
 					<div class="logo flex items-center justify-center text-white">
 						<NuxtLink to="/" @click="closeMenu" class="text-white no-underline">
 							<img :src="logoSrc" alt="webdevjames logo" class="w-full max-w-30 md:max-w-40 h-auto" />
@@ -42,11 +42,13 @@
 						<span :class="['w-6 h-0.5 bg-white rounded-full transition-all duration-300 ease-in-out', isMenuOpen ? 'opacity-0' : '']"></span>
 						<span :class="['w-6 h-0.5 bg-white rounded-full transition-all duration-300 ease-in-out', isMenuOpen ? '-rotate-45 -translate-y-2' : '']"></span>
 					</button>
+				</div>
 
-					<div :class="['absolute left-0 right-0 top-full mt-2 w-full bg-black/80 backdrop-blur-md border border-white/10 rounded-3xl p-6 shadow-2xl transition-all duration-300 ease-in-out md:hidden overflow-hidden origin-top', isMenuOpen ? 'opacity-100 scale-y-100' : 'opacity-0 scale-y-0 pointer-events-none']">
+				<div :class="['absolute left-0 right-0 top-full px-2! md:px-8! mt-2 w-full  transition-all duration-300 ease-in-out md:hidden origin-top z-9', isMenuOpen ? 'opacity-100 scale-y-100' : 'opacity-0 scale-y-0 pointer-events-none']">
+					<div class="bg-black/80 backdrop-blur-xs border border-white/10 rounded-3xl p-4 shadow-2xl overflow-hidden">
 						<ul class="flex flex-col gap-y-4 text-center">
 							<li v-for="link in navLinks" :key="link.title + '-mobile'" class="gap-3 m-0!">
-								<NuxtLink :to="link.url" @click="closeMenu" class="block text-white text-base tracking-wider font-medium py-3 rounded-2xl bg-white/9 hover:bg-linear-to-r hover:from-cyan-500 hover:to-blue-500 transition-all duration-200">
+								<NuxtLink :to="link.url" @click="closeMenu" class="block text-white text-base tracking-wider font-medium py-3 rounded-2xl bg-gray-800/95 hover:bg-linear-to-r hover:from-cyan-500 hover:to-blue-500 transition-colors duration-200">
 									{{ link.title }}
 								</NuxtLink>
 							</li>
