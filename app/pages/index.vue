@@ -12,9 +12,9 @@
 	<section class="section-main section-intro h-dvh blueprint-grid relative items-start!">
 		<div class="container">
 			<div class="container-inner pt-25! md:pt-35!">
-				<img src="/webdevjames-james-frazier-portrait.png" alt="James Frazier Portrait" class="w-full md:w-150 lg:w-175 h-auto absolute bottom-0 right-0 lg:right-[10vw] z-1 brightness-75 opacity-85" />
+				<img src="/webdevjames-james-frazier-portrait.png" alt="James Frazier Portrait" class="w-full md:max-w-[600px] h-auto absolute bottom-0 right-0 lg:right-[10vw] z-1 brightness-75" />
 				<div class="hero-content w-full z-2">
-					<h1 class="text-4xl/11! md:text-5xl/14! lg:text-6xl/18! font-bold">Full-Stack Web Developer Specializing in Agency-Scale Web Applications</h1>
+					<h1 class="text-3xl/9! md:text-5xl/14! lg:text-6xl/18! font-bold">Full-Stack Web Developer Specializing in Agency-Scale Web Applications</h1>
 					<div class="button-wrap multi">
 						<NuxtLink to="/portfolio" class="button alt">
 							<span>See the Work</span>
