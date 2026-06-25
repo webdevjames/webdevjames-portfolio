@@ -91,7 +91,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="section-main">
+	<RevealSection class="section-main">
 		<div class="container">
 			<div class="container-inner">
 				<ul class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 md:gap-6 lg-gap-8">
@@ -110,8 +110,8 @@
 				</ul>
 			</div>
 		</div>
-	</section>
-	<section class="section-main relative">
+	</RevealSection>
+	<RevealSection class="section-main relative">
 		<div class="container">
 			<div class="container-inner pb-0!">
 				<ClientOnly>
@@ -149,8 +149,8 @@
 				</ClientOnly>
 			</div>
 		</div>
-	</section>
-	<section class="section-main contained">
+	</RevealSection>
+	<RevealSection class="section-main contained">
 		<div class="container">
 			<div class="container-inner text-left pb-0!">
 				<h2>Let's explore what would make me a great fit for your team</h2>
@@ -199,35 +199,35 @@
 				</ul>
 			</div>
 		</div>
-	</section>
-	<section class="section-main contained">
+	</RevealSection>
+	<RevealSection class="section-main contained">
 		<div class="container">
 			<div class="container-inner text-left pb-0!">
 				<h2>My personal life</h2>
 				<p>I absolutely love web development, so I never actually have to work. I built my first website way back in 2010 and I was hooked. I left my job in sales / customer service and have never looked back. Since then, I have been developing for agencies and freelancing for a variety of clientele.</p>
 			</div>
 		</div>
-	</section>
+	</RevealSection>
 	<section class="section-main">
 		<div class="container">
 			<div class="container-inner pt-0!">
 				<div class="info-blocks mt-4">
-					<div class="info-block text-left">
+					<RevealSection class="info-block text-left">
 						<h4>Rooted in my <span class="text-blue-500!">faith</span></h4>
 						<p>My faith in Christ guides my values and work ethic (Colossians 3:23). I strive to provide my best in every project - which not only honors God, but honors those I serve. (Ephesians 6:7-8)</p>
-					</div>
-					<div class="info-block text-left">
+					</RevealSection>
+					<RevealSection delay="200ms" class="info-block text-left">
 						<h4><span class="text-blue-500!">Family</span> time</h4>
 						<p>I enjoy spending time with my wife, three kids and our dog Milo. When we're not hanging out at home in the pool or playing video games, we're at the Phoenix Zoo, going on a day trip up north to Sedona or Jerome or making play dates with friends and their families.</p>
-					</div>
-					<div class="info-block text-left">
+					</RevealSection>
+					<RevealSection class="info-block text-left">
 						<h4>Playing <span class="text-blue-500!">mechanic</span></h4>
 						<p>I'm always working on modifications for my own car (2013 MazdaSpeed 3) or helping others with their general maintenance. If I wasn't in web development, I'd like to believe I would be a mechanic. I love everything car-related and dream to one day own a Dodge Viper.</p>
-					</div>
-					<div class="info-block text-left">
+					</RevealSection>
+					<RevealSection delay="200ms" class="info-block text-left">
 						<h4>PGA Tour <span class="text-blue-500!">wannabe</span></h4>
 						<p>Golf is my latest obsession. I'm all in with clubs, a backyard net to practice, YouTube deep dives and a few rounds under my belt. It is so fun and frustrating at the same time. How is that possible? To love and hate something so much?! 😅</p>
-					</div>
+					</RevealSection>
 				</div>
 			</div>
 		</div>

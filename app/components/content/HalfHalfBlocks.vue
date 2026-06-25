@@ -17,13 +17,12 @@
 
 <template>
 	<div :class="['flex flex-col items-center gap-4 md:gap-8 py-4 md:py-8', isReversed ? 'md:flex-row-reverse' : 'md:flex-row']">
-		<div class="w-full md:w-1/2 rounded-xl overflow-hidden mb-2">
+		<RevealSection class="w-full md:w-1/2 rounded-xl overflow-hidden mb-2">
 			<slot name="half-image" mdc-unwrap="p" />
-		</div>
-
-		<div class="w-full md:w-1/2">
+		</RevealSection>
+		<RevealSection delay="200ms" class="w-full md:w-1/2">
 			<slot name="half-title" />
 			<slot name="half-description" />
-		</div>
+		</RevealSection>
 	</div>
 </template>

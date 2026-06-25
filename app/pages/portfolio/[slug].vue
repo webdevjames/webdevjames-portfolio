@@ -40,7 +40,7 @@
 			</div>
 		</section>
 		<ContentRenderer :value="page" />
-		<section class="section-main mt-4 md:mt-8">
+		<RevealSection class="section-main mt-4 md:mt-8">
 			<div class="container">
 				<div class="container-inner border-t-4 border-blue-500">
 					<h2>Thanks for checking out {{ page.title }}</h2>
@@ -50,7 +50,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</RevealSection>
 	</div>
 	<div v-else>
 		<section class="section-main section-intro">

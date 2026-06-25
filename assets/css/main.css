@@ -195,73 +195,27 @@ body {
 	}
 }
 
-/* --- Core Transition Layout --- */
+/* 1. Base initialization rule applied as soon as the component mounts */
 .reveal-init {
-	opacity: 0;
-	/* Uses a premium ease-out cubic-bezier curve for a sleek, liquid-smooth transition */
+	will-change: transform, opacity;
 	transition:
-		opacity 1.2s cubic-bezier(0.215, 0.61, 0.355, 1),
-		transform 1.2s cubic-bezier(0.215, 0.61, 0.355, 1);
-	/* Optimizes mobile layout performance */
-	will-change: opacity, transform;
+		opacity 1000ms cubic-bezier(0.16, 1, 0.3, 1),
+		transform 1000ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-/* --- Style Variations --- */
+/* 2. Starting states for your animation variations */
 .reveal-fade-up {
+	opacity: 0;
 	transform: translateY(40px);
 }
 
 .reveal-fade-in {
-	transform: none;
-}
-
-.reveal-zoom-in {
-	transform: scale(0.95) translateY(10px);
-}
-
-/* --- The Active State (The Destination) --- */
-.reveal-active {
-	opacity: 1;
-	transform: translateY(0) scale(1);
-}
-
-/* --- TransitionGroup Fading --- */
-/* The starting state: invisible and 20px lower */
-.fade-enter-from {
 	opacity: 0;
-	transform: translateY(20px);
-}
-
-/* The active state: how long the move takes */
-.fade-enter-active {
-	transition: all 0.6s ease-out;
-}
-
-/* The ending state: fully visible and at its natural position */
-.fade-enter-to {
-	opacity: 1;
 	transform: translateY(0);
 }
 
-/* Optional: Smoothly move existing cards when new ones are added */
-.fade-move {
-	transition: transform 0.4s ease;
-}
-
-/* Animation fade in effect with Vue transition styles - Must wrap all content in <template with <Transition name="fade" mode="out-in"> */
-.page-fade-enter-active,
-.page-fade-leave-active {
-	transition:
-		opacity 0.4s ease,
-		transform 0.4s ease;
-}
-
-.page-fade-enter-from {
-	opacity: 0;
-	transform: translateY(10px); /* Subtle slide up */
-}
-
-.page-fade-leave-to {
-	opacity: 0;
-	transform: translateY(-10px); /* Subtle slide out */
+/* 3. The destination state triggered by the intersection observer */
+.reveal-active {
+	opacity: 1 !important;
+	transform: translateY(0) !important;
 }

@@ -27,7 +27,7 @@
 			</div>
 		</div>
 	</section>
-	<section id="next" class="section-main contained scroll-mt-25 md:scroll-mt-20">
+	<RevealSection id="next" class="section-main contained scroll-mt-25 md:scroll-mt-20">
 		<div class="container">
 			<div class="container-inner text-left">
 				<p class="subheading">About</p>
@@ -40,34 +40,34 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</RevealSection>
 	<FeaturedProject />
-	<section class="section-main contained">
+	<RevealSection class="section-main contained">
 		<div class="container">
 			<div class="container-inner pb-0!">
 				<h2>Websites of all shapes and sizes</h2>
 				<p>From small nonprofits to enterprise-level build scale, I create web experiences that appeal to clients and their consumers.</p>
 			</div>
 		</div>
-	</section>
+	</RevealSection>
 	<section class="section-main">
 		<div class="container">
 			<div class="container-inner pt-0!">
 				<div class="info-blocks mt-4">
-					<div class="info-block text-left">
+					<RevealSection class="info-block text-left">
 						<h4>Sweating the <span class="text-blue-500!">small</span> stuff</h4>
 						<p>These are true passion projects. The less complex the scale, the more creative freedom is available for smaller budgets. Smaller scale sites have trended toward the arts, nonprofits and portfolio websites.</p>
-					</div>
-					<div class="info-block text-left">
+					</RevealSection>
+					<RevealSection delay="200ms" class="info-block text-left">
 						<h4>It's kind of a <span class="text-blue-500!">big</span> deal</h4>
 						<p>Challenges enable growth. Resolving pain-points and troubleshooting data and CMS access issues for large-scale clients can be both exciting and satisfying - much like piecing together a puzzle.</p>
-					</div>
+					</RevealSection>
 				</div>
-				<div class="button-wrap">
+				<RevealSection class="button-wrap">
 					<NuxtLink to="/portfolio" class="button">
 						<span>View Portfolio</span>
 					</NuxtLink>
-				</div>
+				</RevealSection>
 			</div>
 		</div>
 	</section>

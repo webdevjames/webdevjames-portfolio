@@ -57,27 +57,29 @@
 			</div>
 		</div>
 	</section>
-	<section class="section-main contained section-more-projects">
-		<div class="container">
-			<div class="container-inner">
-				<h2>More noteworthy projects</h2>
-				<p>As the <strong>Lead WordPress Developer</strong> on these projects, they deserve an honorable mention. Each project had specific requests (and fun quirks) of their own - along with some amazing clients.</p>
-				<ul class="lml-[1rem]">
-					<li class="flex items-center justify-start"><Icon name="akar-icons:link-out" class="text-blue-500!" /> <NuxtLink to="https://bohnbiofilter.com/" target="_blank" class="ml-2 transition hover:text-blue-500">Bohn Biofilter</NuxtLink></li>
-					<li class="flex items-center justify-start"><Icon name="akar-icons:link-out" class="text-blue-500!" /> <NuxtLink to="https://cya.coffee/" target="_blank" class="ml-2 transition hover:text-blue-500">Cover Your Assets</NuxtLink></li>
-					<li class="flex items-center justify-start"><Icon name="akar-icons:link-out" class="text-blue-500!" /> <NuxtLink to="https://davidmichaelmiller.com" target="_blank" class="ml-2 transition hover:text-blue-500">David Michael Miller Associates</NuxtLink></li>
-					<li class="flex items-center justify-start"><Icon name="akar-icons:link-out" class="text-blue-500!" /> <NuxtLink to="https://verderiver.org/" target="_blank" class="ml-2 transition hover:text-blue-500">Friends of the Verde River</NuxtLink></li>
-					<li class="flex items-center justify-start"><Icon name="akar-icons:link-out" class="text-blue-500!" /> <NuxtLink to="https://palmtowerphx.com/" target="_blank" class="ml-2 transition hover:text-blue-500">PALM Tower</NuxtLink></li>
-					<li class="flex items-center justify-start"><Icon name="akar-icons:link-out" class="text-blue-500!" /> <NuxtLink to="https://pleasantharbor.com/" target="_blank" class="ml-2 transition hover:text-blue-500">Pleasant Harbor</NuxtLink></li>
-					<li class="flex items-center justify-start"><Icon name="akar-icons:link-out" class="text-blue-500!" /> <NuxtLink to="https://pragmaticheart.com/" target="_blank" class="ml-2 transition hover:text-blue-500">Pragmatic Heart</NuxtLink></li>
-					<li class="flex items-center justify-start"><Icon name="akar-icons:link-out" class="text-blue-500!" /> <NuxtLink to="https://thebazaarliving.com" target="_blank" class="ml-2 transition hover:text-blue-500">The Bazaar Living</NuxtLink></li>
-					<li class="flex items-center justify-start"><Icon name="akar-icons:link-out" class="text-blue-500!" /> <NuxtLink to="https://toddassoc.com/" target="_blank" class="ml-2 transition hover:text-blue-500">Todd &amp Associates</NuxtLink></li>
-					<li class="flex items-center justify-start"><Icon name="akar-icons:link-out" class="text-blue-500!" /> <NuxtLink to="https://wellnessinverdevalleyaz.com/" target="_blank" class="ml-2 transition hover:text-blue-500">Wellness in the Verde Valley</NuxtLink></li>
-					<li class="flex items-center justify-start"><Icon name="akar-icons:link-out" class="text-blue-500!" /> <NuxtLink to="https://wildfireaz.org/" target="_blank" class="ml-2 transition hover:text-blue-500">Wildfire AZ</NuxtLink></li>
-				</ul>
+	<RevealSection>
+		<section class="section-main contained section-more-projects">
+			<div class="container">
+				<div class="container-inner">
+					<h2>More noteworthy projects</h2>
+					<p>As the <strong>Lead WordPress Developer</strong> on these projects, they deserve an honorable mention. Each project had specific requests (and fun quirks) of their own - along with some amazing clients.</p>
+					<ul class="lml-[1rem]">
+						<li class="flex items-center justify-start"><Icon name="akar-icons:link-out" class="text-blue-500!" /> <NuxtLink to="https://bohnbiofilter.com/" target="_blank" class="ml-2 transition hover:text-blue-500">Bohn Biofilter</NuxtLink></li>
+						<li class="flex items-center justify-start"><Icon name="akar-icons:link-out" class="text-blue-500!" /> <NuxtLink to="https://cya.coffee/" target="_blank" class="ml-2 transition hover:text-blue-500">Cover Your Assets</NuxtLink></li>
+						<li class="flex items-center justify-start"><Icon name="akar-icons:link-out" class="text-blue-500!" /> <NuxtLink to="https://davidmichaelmiller.com" target="_blank" class="ml-2 transition hover:text-blue-500">David Michael Miller Associates</NuxtLink></li>
+						<li class="flex items-center justify-start"><Icon name="akar-icons:link-out" class="text-blue-500!" /> <NuxtLink to="https://verderiver.org/" target="_blank" class="ml-2 transition hover:text-blue-500">Friends of the Verde River</NuxtLink></li>
+						<li class="flex items-center justify-start"><Icon name="akar-icons:link-out" class="text-blue-500!" /> <NuxtLink to="https://palmtowerphx.com/" target="_blank" class="ml-2 transition hover:text-blue-500">PALM Tower</NuxtLink></li>
+						<li class="flex items-center justify-start"><Icon name="akar-icons:link-out" class="text-blue-500!" /> <NuxtLink to="https://pleasantharbor.com/" target="_blank" class="ml-2 transition hover:text-blue-500">Pleasant Harbor</NuxtLink></li>
+						<li class="flex items-center justify-start"><Icon name="akar-icons:link-out" class="text-blue-500!" /> <NuxtLink to="https://pragmaticheart.com/" target="_blank" class="ml-2 transition hover:text-blue-500">Pragmatic Heart</NuxtLink></li>
+						<li class="flex items-center justify-start"><Icon name="akar-icons:link-out" class="text-blue-500!" /> <NuxtLink to="https://thebazaarliving.com" target="_blank" class="ml-2 transition hover:text-blue-500">The Bazaar Living</NuxtLink></li>
+						<li class="flex items-center justify-start"><Icon name="akar-icons:link-out" class="text-blue-500!" /> <NuxtLink to="https://toddassoc.com/" target="_blank" class="ml-2 transition hover:text-blue-500">Todd &amp Associates</NuxtLink></li>
+						<li class="flex items-center justify-start"><Icon name="akar-icons:link-out" class="text-blue-500!" /> <NuxtLink to="https://wellnessinverdevalleyaz.com/" target="_blank" class="ml-2 transition hover:text-blue-500">Wellness in the Verde Valley</NuxtLink></li>
+						<li class="flex items-center justify-start"><Icon name="akar-icons:link-out" class="text-blue-500!" /> <NuxtLink to="https://wildfireaz.org/" target="_blank" class="ml-2 transition hover:text-blue-500">Wildfire AZ</NuxtLink></li>
+					</ul>
+				</div>
 			</div>
-		</div>
-	</section>
+		</section>
+	</RevealSection>
 	<CallToAction />
 </template>
 <style scoped></style>
