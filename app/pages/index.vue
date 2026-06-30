@@ -19,9 +19,6 @@
 						<NuxtLink to="/portfolio" class="button alt">
 							<span>See the Work</span>
 						</NuxtLink>
-						<NuxtLink to="/resume-james-frazier.pdf" external target="_blank" class="button alt">
-							<span>View Resume</span>
-						</NuxtLink>
 					</div>
 					<NuxtLink to="#next" class="absolute bottom-0 left-0 w-full h-20 flex items-center justify-center z-4">
 						<Icon name="lucide:chevron-down" class="animate-bounce text-center m-auto inline-block text-4xl" />

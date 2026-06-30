@@ -84,9 +84,6 @@
 					<NuxtLink to="#reach-out" class="button alt">
 						<span>Reach Out Now</span>
 					</NuxtLink>
-					<NuxtLink to="/resume-james-frazier.pdf" external target="_blank" class="button alt">
-						<span>View Resume</span>
-					</NuxtLink>
 				</div>
 			</div>
 		</div>
