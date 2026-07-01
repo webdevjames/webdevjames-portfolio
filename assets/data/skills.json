@@ -1,0 +1,18 @@
+[
+	{
+		"title": "Languages",
+		"items": ["HTML", "PHP", "CSS / SCSS", "TypeScript", "JavaScript", "jQuery"]
+	},
+	{
+		"title": "Software & Frameworks",
+		"items": ["Vue.js", "Nuxt", "Webpack", "Node.js", "Tailwind CSS", "Bootstrap", "Foundation", "Git", "Beanstalk", "Visual Studio Code", "Adobe Creative Cloud"]
+	},
+	{
+		"title": "Platforms, Tools & Extensions",
+		"items": ["WordPress", "Advanced Custom Fields (ACF)", "Elementor", "Enfold", "Gutenberg", "WP Engine", "Pantheon", "cPanel", "Plesk", "MAMP Pro", "Local", "Sequel Pro"]
+	},
+	{
+		"title": "Email Service Providers & Tools",
+		"items": ["MailChimp", "Campaign Monitor", "Constant Contact", "HubSpot", "Salesforce / ExactTarget", "Act-On", "Litmus"]
+	}
+]
