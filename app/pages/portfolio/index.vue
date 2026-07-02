@@ -1,5 +1,13 @@
 <script setup lang="ts">
-	const { data: projects } = await useAsyncData("projects", () => queryCollection("projects").all());
+	// 1. Fetch data lazily and destructure the native 'status' reactive variable
+	// Fetch data lazily with a temporary artificial delay for testing
+	const { data: projects, status } = await useAsyncData(
+		"projects",
+		async () => {
+			return queryCollection("projects").order("title", "ASC").all();
+		},
+		{ lazy: true, server: false },
+	);
 
 	useSeoMeta({
 		title: "Portfolio of James Frazier | webdevjames",
@@ -25,6 +33,7 @@
 		],
 	});
 </script>
+
 <template>
 	<section class="section-main contained section-intro blueprint-grid">
 		<div class="container">
@@ -46,14 +55,24 @@
 	<section class="section-main section-projects">
 		<div class="container">
 			<div class="container-inner">
-				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-					<NuxtLink v-for="project in projects" :key="project.id" :to="project.path.replace('/projects', '/portfolio')" class="relative border rounded-lg transition">
-						<NuxtImg :src="project.heroImage" class="w-full rounded-xl mb-4" :alt="`Featured image for ${project.title}`" format="webp" quality="80" loading="lazy" />
-						<h5 class="mb-0!">{{ project.title }}</h5>
-						<p v-if="project.category" class="bg-blue-500 absolute top-2 right-2 inline rounded-xl text-[10px]! text-white uppercase tracking-widest font-bold px-2 pt-1 pb-0.5 m-0 z-2">{{ project.category }}</p>
-						<p class="text-xs! mt-1 mb-0 block">{{ project.blurb }}</p>
-					</NuxtLink>
-				</div>
+				<Transition name="fade" mode="out-in">
+					<div v-if="status === 'pending'" key="loading" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+						<div v-for="n in 12" :key="n" class="relative rounded-lg bg-black/20">
+							<div class="animate-pulse bg-gray-700 w-full h-48 rounded-xl mb-4"></div>
+							<div class="animate-pulse bg-gray-700 w-3/4 h-5 rounded-md mb-3"></div>
+							<div class="animate-pulse bg-gray-700 w-full h-3 rounded-md my-1 px-2 pt-1 pb-0.5"></div>
+							<div class="animate-pulse bg-gray-700 w-full h-3 rounded-md px-2 pt-1 pb-0.5 m-0"></div>
+						</div>
+					</div>
+					<div v-else class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+						<NuxtLink v-for="project in projects" :key="project.id" :to="project.path.replace('/projects', '/portfolio')" class="relative rounded-lg bg-black/20">
+							<NuxtImg :src="project.heroImage" class="w-full rounded-xl mb-4 object-cover h-48" :alt="`Featured image for ${project.title}`" format="webp" quality="80" />
+							<h5 class="mb-0! text-white">{{ project.title }}</h5>
+							<p v-if="project.category" class="bg-blue-500 absolute top-2 right-2 inline rounded-xl text-[10px]! text-white uppercase tracking-widest font-bold px-2 pt-1 pb-0.5 m-0 z-2">{{ project.category }}</p>
+							<p class="text-xs! mt-1 mb-0 block text-gray-400">{{ project.blurb }}</p>
+						</NuxtLink>
+					</div>
+				</Transition>
 			</div>
 		</div>
 	</section>
@@ -82,4 +101,14 @@
 	</RevealSection>
 	<CallToAction />
 </template>
-<style scoped></style>
+<style scoped>
+	.fade-enter-active,
+	.fade-leave-active {
+		transition: opacity 0.4s ease;
+	}
+
+	.fade-enter-from,
+	.fade-leave-to {
+		opacity: 0;
+	}
+</style>
