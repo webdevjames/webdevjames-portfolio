@@ -82,7 +82,7 @@ body {
 			}
 
 			h4 {
-				@apply text-xl/5 md:text-2xl/7 print:text-base;
+				@apply text-lg/6 md:text-2xl/7 print:text-base;
 			}
 
 			p,

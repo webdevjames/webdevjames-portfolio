@@ -1,4 +1,29 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+	useSeoMeta({
+		title: "Privacy Policy for James Frazier | webdevjames",
+		description: "The Privacy Policy outlines usage of this website (webdevjames).",
+		ogTitle: "Privacy Policy for James Frazier | Front-End Web Designer & Developer",
+		ogDescription: "Learn how James Frazier (webdevjames) collects data. Personal information is not stored or sold.",
+		ogImage: "/default-social-card.jpg",
+		twitterImage: "/default-social-card.jpg",
+	});
+
+	useHead({
+		script: [
+			{
+				type: "application/ld+json",
+				innerHTML: JSON.stringify({
+					"@context": "https://schema.org",
+					"@type": "PrivacyPage",
+					"@id": "https://webdevjames.com/privacy",
+					name: "Privacy Policy for James Frazier (webdevjames)",
+					description: "The Privacy Policy Page Outlines Usage of this Website (webdevjames).",
+					url: "https://webdevjames.com/privacy",
+				}),
+			},
+		],
+	});
+</script>
 <template>
 	<section class="section-main contained section-intro blueprint-grid">
 		<div class="container">

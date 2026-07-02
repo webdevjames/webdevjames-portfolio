@@ -12,7 +12,7 @@
 	useSeoMeta({
 		title: "Portfolio of James Frazier | webdevjames",
 		description: "View a sample of James Frazier's web development projects that have exceeded client expectations.",
-		ogTitle: "Portfolio of James Frazier | Full-Stack Web Developer",
+		ogTitle: "Portfolio of James Frazier | Front-End Web Developer and Designer",
 		ogDescription: "James Frazier's sample of web development projects for local and big brands.",
 		ogImage: "/default-social-card.jpg",
 		twitterImage: "/default-social-card.jpg",
@@ -26,7 +26,7 @@
 					"@context": "https://schema.org",
 					"@type": "PortfolioPage",
 					name: "Portfolio of James Frazier",
-					description: "The portfolio page for webdevjames agency and freelance front-end web development and design.",
+					description: "The Portfolio Page for James Frazier (webdevjames). Agency and Freelance Front-End Web Developer and Designer.",
 					url: "https://webdevjames.com/portfolio",
 				}),
 			},

@@ -3,11 +3,27 @@
 
 	useSeoMeta({
 		title: "Resume of James Frazier | Agency and Freelance Front-End Web Designer & Developer (webdevjames)",
-		description: "James Frazier is a Full-Stack Web Developer and Designer with a focus on WordPress CMS and Vue.js / Nuxt front-end framework.",
+		description: "James Frazier is a Front-End Web Developer and Designer and Designer with a focus on WordPress CMS and Vue.js / Nuxt front-end framework.",
 		ogTitle: "Resume of James Frazier | Front-End Web Designer & Developer",
 		ogDescription: "James Frazier resume showcasing experience in Full-Stack Web Development and Design for agency and freelance projects.",
 		ogImage: "/default-social-card.jpg",
 		twitterImage: "/default-social-card.jpg",
+	});
+
+	useHead({
+		script: [
+			{
+				type: "application/ld+json",
+				innerHTML: JSON.stringify({
+					"@context": "https://schema.org",
+					"@type": "ResumePage",
+					"@id": "https://webdevjames.com/resume",
+					name: "Contact James Frazier (webdevjames)",
+					description: "The Resume page for James Frazier (webdevjames). James is Available for Agency Hire or Freelance Web Development and Design Services.",
+					url: "https://webdevjames.com/resume",
+				}),
+			},
+		],
 	});
 </script>
 <template>
@@ -44,7 +60,7 @@
 				<h2>Professional Experience</h2>
 				<article class="job job-1">
 					<h4 class="mt-10 mb-0! border-l-4 border-blue-500 pl-4"><strong>Sr. Web Developer</strong> | ps:studios (Phoenix, AZ)</h4>
-					<p class="mb-0! border-l-4 border-blue-500 pl-4"><em>Aug 2015 &ndash; Present</em></p>
+					<p class="mb-0! border-l-4 border-blue-500 pt-2 pl-4"><em>Aug 2015 &ndash; Present</em></p>
 					<div class="border-l-4 border-white pl-4 py-6">
 						<ul>
 							<li><strong class="text-blue-500">Full-Lifecycle Development:</strong> Architect, design, and launch 40+ custom-built WordPress and static HTML web platforms from complex Figma and InDesign design systems.</li>
@@ -62,7 +78,7 @@
 				</article>
 				<article class="job job-1">
 					<h4 class="mt-8 mb-0! border-l-4 border-blue-500 pl-4 print:mt-0!"><strong>HTML Email / Web Developer</strong> | McMURRY/TMG (Phoenix, AZ)</h4>
-					<p class="mb-0! border-l-4 border-blue-500 pl-4"><em>Feb 2013 &ndash; Aug 2015 </em></p>
+					<p class="mb-0! border-l-4 border-blue-500 pt-2 pl-4"><em>Feb 2013 &ndash; Aug 2015 </em></p>
 					<div class="border-l-4 border-white pl-4 py-6">
 						<ul>
 							<li><strong class="text-blue-500">Responsive Architecture:</strong> Built cross-browser compatible, mobile-first responsive websites using Bootstrap/Foundation frameworks, HTML5, CSS3, SCSS, and jQuery.</li>
@@ -81,7 +97,7 @@
 				<h2>Education</h2>
 				<article class="education">
 					<h4 class="mt-8 mb-0! border-l-4 border-blue-500 pl-4"><strong>Collins College</strong> (Tempe, AZ)</h4>
-					<p class="mb-0! border-l-4 border-blue-500 pl-4"><em>Jul 2006 &ndash; Jun 2009 </em></p>
+					<p class="mb-0! border-l-4 border-blue-500 pt-2 pl-4"><em>Jul 2006 &ndash; Jun 2009 </em></p>
 					<div class="border-l-4 border-white pl-4 py-6">
 						<ul>
 							<li class="print:m-0!"><strong class="text-blue-500">Bachelor of Arts:</strong> Visual Art</li>

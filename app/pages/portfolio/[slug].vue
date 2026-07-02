@@ -1,34 +1,49 @@
 <script setup lang="ts">
 	const route = useRoute();
-	// Initialize the Nuxt Image composable engine
 	const img = useImage();
 
 	// 1. Fetch the specific project based on the URL slug
 	const { data: page } = await useAsyncData(route.path, () => queryCollection("projects").path(route.path.replace("/portfolio", "/projects")).first());
 
-	// 2. Automatically generate all SEO and Social Share tags!
-	useSeoMeta({
-		title: () => `${page.value?.title} | James Frazier - Portfolio`,
-		description: () => page.value?.description || "View my latest web development project.",
-		ogTitle: () => page.value?.title,
-		ogDescription: () => page.value?.description,
-		ogImage: () => page.value?.image || "/default-social-card.jpg",
-		twitterImage: "/default-social-card.jpg",
-	});
+	// Grab the slug directly from the file-based router parameters!
+	const projectSlug = route.params.slug;
 
-	// 3. COMBINED SUPER-POWER: Process image and position together cleanly
+	// 2. COMBINED SUPER-POWER: Process image and position together cleanly
 	const heroStyle = computed(() => {
-		// Defensive check: if data hasn't arrived yet, return empty styles
 		if (!page.value?.heroImage) return {};
-
-		// Generate the optimized WebP URL using .value. safely
 		const optimizedUrl = img(page.value.heroImage, { format: "webp", quality: 80 });
-
 		return {
 			backgroundImage: `url(${optimizedUrl})`,
 			backgroundPosition: page.value.heroPosition || "center",
 		};
 	});
+
+	// 3. SEO TAGS: Wrapped in arrow functions so they dynamically update when data arrives
+	useSeoMeta({
+		title: () => `Portfolio Project for ${page.value?.title || "Loading..."} | webdevjames`,
+		description: () => page.value?.description || "View my latest custom web design and development project.",
+		ogTitle: () => `Portfolio Project for ${page.value?.title} | webdevjames`,
+		ogDescription: () => `Custom Web Design and Development for ${page.value?.title}.`,
+		ogImage: () => page.value?.image || "/default-social-card.jpg",
+		twitterImage: "/default-social-card.jpg",
+	});
+
+	// 4. SCHEMA DATA: Wrapped in an arrow function closure to ensure it stays reactive
+	useHead(() => ({
+		script: [
+			{
+				type: "application/ld+json",
+				innerHTML: JSON.stringify({
+					"@context": "https://schema.org",
+					"@type": "ProjectPage",
+					"@id": `https://webdevjames.com/portfolio/${projectSlug}`,
+					name: `Portfolio Project for ${page.value?.title || ""}`,
+					description: `The Portfolio Project Page for ${page.value?.title || ""} Built by James Frazier (webdevjames).`,
+					url: `https://webdevjames.com/portfolio/${projectSlug}`,
+				}),
+			},
+		],
+	}));
 </script>
 <template>
 	<div v-if="page">

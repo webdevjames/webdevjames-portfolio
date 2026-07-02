@@ -1,5 +1,5 @@
 <template>
-	<NuxtImg :src="src" :alt="alt" :width="width" :height="height" format="webp" quality="80" loading="lazy" class="portfolio-content-image rounded-lg my-6 w-full h-auto" />
+	<NuxtImg :src="src" :alt="alt" :width="width" :height="height" format="webp" quality="80" loading="lazy" class="portfolio-content-image rounded-lg w-full h-auto" />
 </template>
 
 <script setup lang="ts">

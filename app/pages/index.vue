@@ -1,11 +1,27 @@
 <script setup lang="ts">
 	useSeoMeta({
-		title: "James Frazier | Agency and Freelance Full-Stack Web Developer (webdevjames)",
+		title: "James Frazier (webdevjames) | Agency and Freelance Front-End Web Developer and Designer ",
 		description: "Hi, I'm James Frazier. I build high-performance custom Nuxt and WordPress web applications. I also specialize in HTML email template development.",
-		ogTitle: "James Frazier | Front-End Web Designer & Developer",
-		ogDescription: "Custom web and HTML email development for any application. ",
+		ogTitle: "James Frazier (webdevjames) | Front-End Web Designer & Developer",
+		ogDescription: "Custom web and HTML email design and development for any application.",
 		ogImage: "/default-social-card.jpg",
 		twitterImage: "/default-social-card.jpg",
+	});
+
+	useHead({
+		script: [
+			{
+				type: "application/ld+json",
+				innerHTML: JSON.stringify({
+					"@context": "https://schema.org",
+					"@type": "HomePage",
+					"@id": "https://webdevjames.com",
+					name: "Welcome to webdevjames - A Portfolio for James Frazier",
+					description: "The Home page for James Frazier (webdevjames). James is a Front-end Web Developer and Designer.",
+					url: "https://webdevjames.com",
+				}),
+			},
+		],
 	});
 </script>
 <template>
