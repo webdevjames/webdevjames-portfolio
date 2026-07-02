@@ -25,7 +25,7 @@ For this project, the owner of A-I-R (Architecture - Infrastructure - Research) 
 ::project-section-full
 ::half-half-blocks
 #half-image
-![Project Detail](/webdevjames-project-fairtrade-hanging.jpg)
+![FA-I-RTRADE astronaut hanging around](/webdevjames-project-fairtrade-hanging.jpg)
 
 #half-title
 
@@ -38,7 +38,7 @@ The A-I-R office mascot - hidden throughout their project imagery - is a curious
 
 ::half-half-blocks{reverse=true}
 #half-image
-![Project Detail](/webdevjames-project-fairtrade-exercise.jpg)
+![FA-I-RTRADE floating satellite](/webdevjames-project-fairtrade-exercise.jpg)
 
 #half-title
 

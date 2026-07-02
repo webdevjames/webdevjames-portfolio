@@ -51,9 +51,9 @@
 
 	useSeoMeta({
 		title: "Contact James Frazier | webdevjames",
-		description: "Have a project in mind or need a custom web application built? Drop me a line and let's build something great.",
-		ogTitle: "Contact James Frazier | Full-Stack Web Developer",
-		ogDescription: "Contact James Frazier for your agency or freelance web developer needs. ",
+		description: "Have a project in mind or need a custom web application built? Hire me today and let's build something great.",
+		ogTitle: "Contact James Frazier | Front-End Web Designer & Developer",
+		ogDescription: "Contact James Frazier for your agency or freelance web developer needs.",
 		ogImage: "/default-social-card.jpg",
 		twitterImage: "/default-social-card.jpg",
 	});
@@ -66,7 +66,7 @@
 					"@context": "https://schema.org",
 					"@type": "ContactPage",
 					name: "Contact James Frazier",
-					description: "The contact form for webdevjames for agency and freelance web development services.",
+					description: "The contact form for James Frazier (webdevjames) for agency and freelance web development and design services.",
 					url: "https://webdevjames.com/contact",
 				}),
 			},

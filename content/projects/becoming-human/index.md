@@ -29,7 +29,7 @@ Perhaps the most crucial aspect of the rebuild was ensuring that all aspects of 
 ::project-section-full
 ::half-half-blocks
 #half-image
-![Project Detail](/webdevjames-project-becoming-human-timeline.jpg)
+![Becoming Human Timeline](/webdevjames-project-becoming-human-timeline.jpg)
 
 #half-title
 
@@ -42,7 +42,7 @@ An interactive and resource-heavy Timeline was created to highlight dates of dis
 
 ::half-half-blocks{reverse=true}
 #half-image
-![Project Detail](/webdevjames-project-becoming-human-resources.jpg)
+![Becoming Human Learning Resources](/webdevjames-project-becoming-human-resources.jpg)
 
 #half-title
 
@@ -55,7 +55,7 @@ In the new Learning Center, students can explore internal and external resources
 
 ::half-half-blocks
 #half-image
-![Project Detail](/webdevjames-project-becoming-human-pathways.jpg)
+![Becoming Human Pathways to Discovery](/webdevjames-project-becoming-human-pathways.jpg)
 
 #half-title
 

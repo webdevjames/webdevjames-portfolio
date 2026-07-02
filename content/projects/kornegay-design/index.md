@@ -26,7 +26,7 @@ The website would also need to include automation when possible - making a singl
 ::project-section-full
 ::half-half-blocks
 #half-image
-![Project Detail](/webdevjames-project-kornegay-design-foundation.jpg)
+![Kornegay Design Founder Larry Kornegay](/webdevjames-project-kornegay-design-foundation.jpg)
 
 #half-title
 
@@ -39,7 +39,7 @@ Prior to the acquisition by Landscape Forms, Kornegay Design was founded by Larr
 
 ::half-half-blocks{reverse=true}
 #half-image
-![Project Detail](/webdevjames-project-kornegay-design-cast.jpg)
+![Kornegay Design employee cleaning pottery](/webdevjames-project-kornegay-design-cast.jpg)
 
 #half-title
 
@@ -52,7 +52,7 @@ The quality of each cast was important to the messaging of the site. Showing the
 
 ::half-half-blocks
 #half-image
-![Project Detail](/webdevjames-project-kornegay-design-breaking.jpg)
+![Kornegay Design newcomers Ian McDonald and Claudia Issa](/webdevjames-project-kornegay-design-breaking.jpg)
 
 #half-title
 

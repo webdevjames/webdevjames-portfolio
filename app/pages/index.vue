@@ -2,7 +2,7 @@
 	useSeoMeta({
 		title: "James Frazier | Agency and Freelance Full-Stack Web Developer (webdevjames)",
 		description: "Hi, I'm James Frazier. I build high-performance custom Nuxt and WordPress web applications. I also specialize in HTML email template development.",
-		ogTitle: "James Frazier | Full-Stack Web Developer",
+		ogTitle: "James Frazier | Front-End Web Designer & Developer",
 		ogDescription: "Custom web and HTML email development for any application. ",
 		ogImage: "/default-social-card.jpg",
 		twitterImage: "/default-social-card.jpg",
@@ -12,11 +12,11 @@
 	<section class="section-main section-intro h-dvh blueprint-grid items-start!">
 		<div class="container h-full">
 			<div class="container-inner relative w-full h-full flex items-start md:items-center justify-start pt-25! md:pt-35!">
-				<img src="/webdevjames-james-frazier-portrait.png" alt="James Frazier Portrait" class="w-full md:max-w-[600px] h-auto absolute bottom-0 right-0 z-1 brightness-75" />
+				<NuxtImg src="/webdevjames-james-frazier-portrait.png" alt="James Frazier Portrait" format="webp" quality="80" class="w-full sm:max-w-[50%] md:max-w-[600px] h-auto absolute bottom-0 -right-12 md:right-0 z-1 brightness-75" />
 				<div class="hero-content w-full max-w-[700px] translate-y-0 md:-translate-y-18 z-2">
 					<p class="subheading" aria-hidden="true">James Frazier</p>
-					<h1 class="text-3xl/9! md:text-5xl/14! lg:text-5xl/14! font-bold"><span class="sr-only">James Frazier | </span>Front-End Web Designer & Developer</h1>
-					<p>Crafting visually compelling user experiences with a designer's eye and an engineer's precision. Over 10 years of fast-paced agency experience building responsive, high-converting websites and HTML email.</p>
+					<h1 class="text-2xl/7! md:text-5xl/14! font-bold"><span class="sr-only">James Frazier | </span>Front-End Web Designer & Developer</h1>
+					<p>Crafting visually compelling user experiences with a designer's eye and an engineer's precision. Over 10 years of fast-paced agency experience building responsive, high-converting websites.</p>
 					<div class="button-wrap multi">
 						<NuxtLink to="/portfolio" class="button alt">
 							<span>See the Work</span>
@@ -34,7 +34,7 @@
 			<div class="container-inner text-left">
 				<p class="subheading">About</p>
 				<h2>I build web applications and HTML email</h2>
-				<p>I support agencies and customers by designing, developing and supporting their marketing initiatives. Utilizing experience in collaborating with digital marketing specialists, I lead efforts for UI/UX strategy, interface design, and front-end architecture with the end-users' needs in mind.</p>
+				<p>I support agencies and customers by designing and developing their marketing initiatives. Utilizing experience in collaborating with digital marketing specialists, I lead efforts for UI/UX strategy, interface design, and front-end architecture with the end-users' needs in mind.</p>
 				<div class="button-wrap">
 					<NuxtLink to="/about" class="button">
 						<span>More About Me</span>

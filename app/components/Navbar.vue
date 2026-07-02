@@ -4,8 +4,8 @@
 	const navLinks = ref([
 		{ title: "Portfolio", url: "/portfolio" },
 		{ title: "About", url: "/about" },
+		{ title: "Resume", url: "/resume" },
 		{ title: "Contact", url: "/contact" },
-		// { title: "Resume", url: "/resume" },
 	]);
 	const logoSrc = "/logo-webdevjames-white-blue.svg";
 
@@ -20,7 +20,7 @@
 </script>
 
 <template>
-	<nav class="section-main fixed top-0 left-0 w-full h-[75px] md:h-[88px] z-50 transition-all duration-300">
+	<nav class="section-main fixed top-0 left-0 w-full h-[75px] md:h-[88px] z-50 transition-all duration-300 print:hidden!">
 		<div class="container px-2! md:px-8!">
 			<div class="container-inner p-0!">
 				<div class="relative w-full flex flex-row items-center justify-between gap-4 pl-5 md:pl-8 pr-5 md:pr-4 py-3 md:py-4 bg-black/80 backdrop-blur-xs rounded-4xl m-auto border border-white/10 shadow-xl">

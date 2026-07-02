@@ -26,14 +26,25 @@ export default defineNuxtConfig({
 	compatibilityDate: "2025-07-15",
 	devtools: { enabled: true },
 	css: ["~~/assets/css/main.css"],
+
 	vite: {
 		plugins: [tailwindcss()],
-		optimizeDeps: {
-			include: ["swiper/element/bundle", "@nuxtjs/mdc > remark-gfm", "@nuxtjs/mdc > remark-emoji", "@nuxtjs/mdc > remark-mdc", "@nuxtjs/mdc > remark-rehype", "@nuxtjs/mdc > rehype-raw", "@nuxtjs/mdc > parse5", "@nuxtjs/mdc > unist-util-visit", "@nuxtjs/mdc > unified", "@nuxtjs/mdc > debug", "@nuxtjs/mdc > extend"],
-		},
+		// Cleaned up the obsolete optimizeDeps block entirely!
 	},
 
-	modules: ["@nuxt/icon", "@nuxt/fonts", "@nuxt/content", "nuxt-swiper", "@vercel/speed-insights", "nuxt-gtag"],
+	// Configure your custom local SVG compilation layer
+	icon: {
+		customCollections: [
+			{
+				prefix: "custom", // This defines the string prefix used in your JSON file
+				dir: "./assets/icons", // Path to your local custom SVG directory
+			},
+		],
+	},
+
+	// Added "@nuxt/image" to the end of your active module ecosystem
+	modules: ["@nuxt/icon", "@nuxt/fonts", "@nuxt/content", "nuxt-swiper", "@vercel/speed-insights", "nuxt-gtag", "@nuxt/image"],
+
 	content: {
 		renderer: { anchorLinks: false },
 	},

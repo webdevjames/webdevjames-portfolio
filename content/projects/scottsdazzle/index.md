@@ -26,7 +26,7 @@ The website needed to feature events (primarily) and vendor offerings based on t
 ::project-section-full
 ::half-half-blocks
 #half-image
-![Project Detail](/webdevjames-project-scottsdazzle-events.jpg)
+![Scottsdazzle event father and daughters face painting](/webdevjames-project-scottsdazzle-events.jpg)
 
 #half-title
 
@@ -39,7 +39,7 @@ The events are the hub of the site. Vendors are able to submit their events to a
 
 ::half-half-blocks{reverse=true}
 #half-image
-![Project Detail](/webdevjames-project-scottsdazzle-has-it-all.jpg)
+![Scottsdazzle Sip restaurant bartender](/webdevjames-project-scottsdazzle-has-it-all.jpg)
 
 #half-title
 
@@ -52,7 +52,7 @@ The site featured three primary categories: Dine, Shop, and Events. The Dine and
 
 ::half-half-blocks
 #half-image
-![Project Detail](/webdevjames-project-scottsdazzle-data.jpg)
+![Scottsdazzle family at event with Google Analytics logo overlay](/webdevjames-project-scottsdazzle-data.jpg)
 
 #half-title
 

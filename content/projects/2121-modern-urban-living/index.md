@@ -27,7 +27,7 @@ Their team required a site that is easy to manage since pricing and availability
 ::project-section-full
 ::half-half-blocks
 #half-image
-![Project Detail](/webdevjames-project-2121-modern-urban-living-never.jpg)
+![2121 Clubhouse](/webdevjames-project-2121-modern-urban-living-never.jpg)
 
 #half-title
 
@@ -40,7 +40,7 @@ Their team required a site that is easy to manage since pricing and availability
 
 ::half-half-blocks{reverse=true}
 #half-image
-![Project Detail](/webdevjames-project-2121-modern-urban-living-floorplan.jpg)
+![2121 Floorplan Example](/webdevjames-project-2121-modern-urban-living-floorplan.jpg)
 
 #half-title
 

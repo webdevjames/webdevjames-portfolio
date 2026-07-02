@@ -31,7 +31,7 @@ As premier real estate agents of _Architecturally Unique Homes™_, azarchitectu
 ::project-section-full
 ::half-half-blocks
 #half-image
-![Project Detail](/webdevjames-project-azarchitecture-hub.jpg)
+![azarchitecture website home page](/webdevjames-project-azarchitecture-hub.jpg)
 
 #half-title
 
@@ -44,7 +44,7 @@ Creating a home page featuring the most prominent call-to-action areas creates a
 
 ::half-half-blocks{reverse=true}
 #half-image
-![Project Detail](/webdevjames-project-azarchitecture-demographics.jpg)
+![azarchitecture exclusive home listing](/webdevjames-project-azarchitecture-demographics.jpg)
 
 #half-title
 
@@ -57,7 +57,7 @@ The unique home buyer is different than the standard home buyer. azarchitecture 
 
 ::half-half-blocks
 #half-image
-![Project Detail](/webdevjames-project-azarchitecture-engaged.jpg)
+![azarchitecture Nuxt and WordPress logos](/webdevjames-project-azarchitecture-engaged.jpg)
 
 #half-title
 

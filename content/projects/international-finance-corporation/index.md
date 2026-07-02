@@ -25,7 +25,7 @@ Because the teams were already familiar with the WordPress platform, maintaining
 ::project-section-full
 ::half-half-blocks
 #half-image
-![Project Detail](/webdevjames-project-ifc-edge-buildings.jpg)
+![IFC - EDGE Buildings Mexico City buildings horizon](/webdevjames-project-ifc-edge-buildings.jpg)
 
 #half-title
 
@@ -39,7 +39,7 @@ EDGE Buildings features dynamic green certification statistics from their manage
 
 ::half-half-blocks{reverse=true}
 #half-image
-![Project Detail](/webdevjames-project-ifc-ifcsia.jpg)
+![IFC - IFCSIA sustainable community](/webdevjames-project-ifc-ifcsia.jpg)
 
 #half-title
 
@@ -53,7 +53,7 @@ IFCSIA is a resource dedicated to showcasing trends, takeaways, and trailblazers
 
 ::half-half-blocks
 #half-image
-![Project Detail](/webdevjames-project-ifc-scaling-solar.jpg)
+![IFC - Scaling Solar solar panels](/webdevjames-project-ifc-scaling-solar.jpg)
 
 #half-title
 

@@ -27,7 +27,7 @@ This time around, making the website visitor experience more personal was a prim
 ::project-section-full
 ::half-half-blocks
 #half-image
-![Project Detail](/webdevjames-project-liberty-wildlife-soaring.jpg)
+![Liberty Wildlife eagle flying](/webdevjames-project-liberty-wildlife-soaring.jpg)
 
 #half-title
 
@@ -40,7 +40,7 @@ Somewhere over the desert horizon was a better approach to design. Making use of
 
 ::half-half-blocks{reverse=true}
 #half-image
-![Project Detail](/webdevjames-project-liberty-wildlife-hatching.jpg)
+![Liberty Wildlife new building front](/webdevjames-project-liberty-wildlife-hatching.jpg)
 
 #half-title
 
@@ -53,7 +53,7 @@ A newer, modern design was not the only reason to move forward for Liberty Wildl
 
 ::half-half-blocks
 #half-image
-![Project Detail](/webdevjames-project-liberty-wildlife-education.jpg)
+![Liberty Wildlife Education Ambassador](/webdevjames-project-liberty-wildlife-education.jpg)
 
 #half-title
 

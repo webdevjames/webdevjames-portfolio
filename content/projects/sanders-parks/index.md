@@ -25,7 +25,7 @@ Sanders + Parks is a perfect testament to quality design. Launched in early 2019
 ::project-section-full
 ::half-half-blocks
 #half-image
-![Project Detail](/webdevjames-project-sanders-parks-people.jpg)
+![Sanders + Parks Attorneys](/webdevjames-project-sanders-parks-people.jpg)
 
 #half-title
 
@@ -38,7 +38,7 @@ Law firms can be intimidating but trust me, after meeting with the leadership at
 
 ::half-half-blocks{reverse=true}
 #half-image
-![Project Detail](/webdevjames-project-sanders-parks-playground.jpg)
+![Sanders + Parks glass building front](/webdevjames-project-sanders-parks-playground.jpg)
 
 #half-title
 
@@ -51,7 +51,7 @@ With 12 Practice Areas, an Information Centers hub, and a large number of Succes
 
 ::half-half-blocks
 #half-image
-![Project Detail](/webdevjames-project-sanders-parks-news.jpg)
+![Sanders + Parks news posts](/webdevjames-project-sanders-parks-news.jpg)
 
 #half-title
 

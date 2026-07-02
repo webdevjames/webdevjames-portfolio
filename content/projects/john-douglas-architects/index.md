@@ -26,7 +26,7 @@ What John received was a publication-style design, an easily-managed CMS using W
 ::project-section-full
 ::half-half-blocks
 #half-image
-![Project Detail](/webdevjames-project-john-douglas-architects-timeline.jpg)
+![John Douglas Architects biography timeline](/webdevjames-project-john-douglas-architects-timeline.jpg)
 
 #half-title
 
@@ -39,7 +39,7 @@ The About page for the John Douglas site features a simple, yet effective, timel
 
 ::half-half-blocks{reverse=true}
 #half-image
-![Project Detail](/webdevjames-project-john-douglas-architects-projects.jpg)
+![John Douglas Architects project with schematic drawing](/webdevjames-project-john-douglas-architects-projects.jpg)
 
 #half-title
 
@@ -52,7 +52,7 @@ The website projects are where the site shines. Each project features large imag
 
 ::half-half-blocks
 #half-image
-![Project Detail](/webdevjames-project-john-douglas-architects-awards.jpg)
+![John Douglas Architects awards list](/webdevjames-project-john-douglas-architects-awards.jpg)
 
 #half-title
 

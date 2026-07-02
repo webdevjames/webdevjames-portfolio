@@ -26,7 +26,7 @@ The leadership team was solid, the company culture was amazing, they get involve
 ::project-section-full
 ::half-half-blocks
 #half-image
-![Project Detail](/webdevjames-project-jokake-construction-know.jpg)
+![Jokake Construction leadership team](/webdevjames-project-jokake-construction-know.jpg)
 
 #half-title
 
@@ -39,7 +39,7 @@ Getting to know the team is what puts the heart in any business. These proud emp
 
 ::half-half-blocks{reverse=true}
 #half-image
-![Project Detail](/webdevjames-project-jokake-construction-proof.jpg)
+![Jokake Construction project lobby](/webdevjames-project-jokake-construction-proof.jpg)
 
 #half-title
 
@@ -52,7 +52,7 @@ The Portfolio page features proven talent from project concept to completion. Jo
 
 ::half-half-blocks
 #half-image
-![Project Detail](/webdevjames-project-jokake-construction-impacting.jpg)
+![Jokake Construction community service](/webdevjames-project-jokake-construction-impacting.jpg)
 
 #half-title
 

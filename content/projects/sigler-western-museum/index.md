@@ -28,7 +28,7 @@ Since they were already familiar with WordPress, we stuck with it. This time, ho
 ::project-section-full
 ::half-half-blocks
 #half-image
-![Project Detail](/webdevjames-project-sigler-western-museum-cowgirl-up.jpg)
+![Sigler Western Museum artist Harper Henry with artwork](/webdevjames-project-sigler-western-museum-cowgirl-up.jpg)
 
 #half-title
 
@@ -41,7 +41,7 @@ The artists are the heroes of every museum. They are the reason people visit Sig
 
 ::half-half-blocks{reverse=true}
 #half-image
-![Project Detail](/webdevjames-project-sigler-western-museum-exhibitions-events.jpg)
+![Sigler Western Museum shop on lower level of Museum](/webdevjames-project-sigler-western-museum-exhibitions-events.jpg)
 
 #half-title
 
@@ -54,7 +54,7 @@ Besides artwork, museums often have specific exhibitions and  public or private 
 
 ::half-half-blocks
 #half-image
-![Project Detail](/webdevjames-project-sigler-western-museum-future.jpg)
+![Sigler Western Museum new facility rendering](/webdevjames-project-sigler-western-museum-future.jpg)
 
 #half-title
 

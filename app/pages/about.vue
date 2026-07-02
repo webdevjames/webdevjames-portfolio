@@ -44,7 +44,7 @@
 	useSeoMeta({
 		title: "About James Frazier | webdevjames",
 		description: "Get to know James Frazier and how he can help your web development team succeed.",
-		ogTitle: "About James Frazier | Full-Stack Web Developer",
+		ogTitle: "About James Frazier | Front-End Web Designer & Developer",
 		ogDescription: "Learn how James Frazier can help grow or integrate into your web development team.",
 		ogImage: "/default-social-card.jpg",
 		twitterImage: "/default-social-card.jpg",

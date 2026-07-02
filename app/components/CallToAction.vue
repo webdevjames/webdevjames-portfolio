@@ -5,7 +5,7 @@
 			<div class="container-inner">
 				<RevealSection>
 					<div class="cta-image w-full">
-						<img src="/webdevjames-cta-banner-websites.jpg" alt="Websites by James Frazier" class="w-full rounded-xl overflow-hidden" />
+						<NuxtImg src="/webdevjames-cta-banner-websites.jpg" alt="Websites by James Frazier" format="webp" quality="80" class="w-full rounded-xl overflow-hidden" />
 					</div>
 				</RevealSection>
 				<RevealSection>

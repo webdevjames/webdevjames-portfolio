@@ -26,7 +26,7 @@ My goal with this website was not only to meet their needs, but to exceed them -
 ::project-section-full
 ::half-half-blocks
 #half-image
-![Project Detail](/webdevjames-project-az-cancer-simplicity.jpg)
+![AZ Cancer Foundation Family in paint splatter room](/webdevjames-project-az-cancer-simplicity.jpg)
 
 #half-title
 
@@ -39,7 +39,7 @@ The site was built with the idea that families of all experiences will have an e
 
 ::half-half-blocks{reverse=true}
 #half-image
-![Project Detail](/webdevjames-project-az-cancer-options.jpg)
+![AZ Cancer Foundation family illustration](/webdevjames-project-az-cancer-options.jpg)
 
 #half-title
 
@@ -52,7 +52,7 @@ Looking to donate? Easy. Want to be a sponsor? No problem. Need a dollar-for-dol
 
 ::half-half-blocks
 #half-image
-![Project Detail](/webdevjames-project-az-cancer-calendar.jpg)
+![AZ Cancer Foundation auction event](/webdevjames-project-az-cancer-calendar.jpg)
 
 #half-title
 

@@ -1,18 +1,56 @@
 [
 	{
 		"title": "Languages",
-		"items": ["HTML", "PHP", "CSS / SCSS", "TypeScript", "JavaScript", "jQuery"]
+		"items": [
+			{ "name": "CSS / SCSS", "icon": "devicon:css" },
+			{ "name": "HTML", "icon": "devicon:html5" },
+			{ "name": "JavaScript", "icon": "devicon:javascript" },
+			{ "name": "jQuery", "icon": "devicon:jquery" },
+			{ "name": "PHP", "icon": "devicon:php" },
+			{ "name": "TypeScript", "icon": "devicon:typescript" }
+		]
 	},
 	{
 		"title": "Software & Frameworks",
-		"items": ["Vue.js", "Nuxt", "Webpack", "Node.js", "Tailwind CSS", "Bootstrap", "Foundation", "Git", "Beanstalk", "Visual Studio Code", "Adobe Creative Cloud"]
+		"items": [
+			{ "name": "Adobe Creative Cloud", "icon": "cib:adobe-creative-cloud" },
+			{ "name": "Beanstalk", "icon": "custom:icon-beanstalk" },
+			{ "name": "Bootstrap", "icon": "devicon:bootstrap" },
+			{ "name": "Foundation", "icon": "devicon:foundation" },
+			{ "name": "Git", "icon": "devicon:git" },
+			{ "name": "Node.js", "icon": "selfhst:node-js" },
+			{ "name": "Nuxt", "icon": "devicon:nuxt" },
+			{ "name": "Tailwind CSS", "icon": "devicon:tailwindcss" },
+			{ "name": "Visual Studio Code", "icon": "devicon:vscode" },
+			{ "name": "Vue.js", "icon": "devicon:vuejs" },
+			{ "name": "Webpack", "icon": "devicon:webpack" }
+		]
 	},
 	{
 		"title": "Platforms, Tools & Extensions",
-		"items": ["WordPress", "Advanced Custom Fields (ACF)", "Elementor", "Enfold", "Gutenberg", "WP Engine", "Pantheon", "cPanel", "Plesk", "MAMP Pro", "Local", "Sequel Pro"]
+		"items": [
+			{ "name": "Advanced Custom Fields", "icon": "custom:icon-acf" },
+			{ "name": "cPanel", "icon": "devicon:cpanel" },
+			{ "name": "Elementor", "icon": "simple-icons:elementor" },
+			{ "name": "Enfold", "icon": "custom:icon-enfold" },
+			{ "name": "Gutenberg", "icon": "simple-icons:gutenberg" },
+			{ "name": "Local", "icon": "simple-icons:local" },
+			{ "name": "MAMP Pro", "icon": "simple-icons:mamp" },
+			{ "name": "Pantheon", "icon": "simple-icons:pantheon" },
+			{ "name": "Plesk", "icon": "simple-icons:plesk" },
+			{ "name": "WordPress", "icon": "devicon-plain:wordpress" },
+			{ "name": "WP Engine", "icon": "logos:wpengine" }
+		]
 	},
 	{
 		"title": "Email Service Providers & Tools",
-		"items": ["MailChimp", "Campaign Monitor", "Constant Contact", "HubSpot", "Salesforce / ExactTarget", "Act-On", "Litmus"]
+		"items": [
+			{ "name": "Campaign Monitor", "icon": "logos:campaignmonitor-icon" },
+			{ "name": "Constant Contact", "icon": "custom:icon-constant-contact" },
+			{ "name": "HubSpot", "icon": "mdi:hubspot" },
+			{ "name": "Litmus", "icon": "logos:litmus" },
+			{ "name": "MailChimp", "icon": "logos:mailchimp-freddie" },
+			{ "name": "Salesforce", "icon": "devicon:salesforce" }
+		]
 	}
 ]

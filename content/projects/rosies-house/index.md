@@ -27,7 +27,7 @@ The site is home to a variety of content types including events, program informa
 ::project-section-full
 ::half-half-blocks
 #half-image
-![Project Detail](/webdevjames-project-rosies-house-music.jpg)
+![Rosie's House girl student playing guitar](/webdevjames-project-rosies-house-music.jpg)
 
 #half-title
 
@@ -40,7 +40,7 @@ The new Rosie's House website was designed and constructed to guide parents and 
 
 ::half-half-blocks{reverse=true}
 #half-image
-![Project Detail](/webdevjames-project-rosies-house-stats.jpg)
+![Rosie's House statistics](/webdevjames-project-rosies-house-stats.jpg)
 
 #half-title
 
@@ -53,7 +53,7 @@ Rosie's House had the results to back up their impact. Since their founding, ove
 
 ::half-half-blocks
 #half-image
-![Project Detail](/webdevjames-project-rosies-house-talent.jpg)
+![Rosie's House Faculty and Staff](/webdevjames-project-rosies-house-talent.jpg)
 
 #half-title
 

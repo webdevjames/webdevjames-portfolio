@@ -1,5 +1,7 @@
 <script setup lang="ts">
 	const route = useRoute();
+	// Initialize the Nuxt Image composable engine
+	const img = useImage();
 
 	// 1. Fetch the specific project based on the URL slug
 	const { data: page } = await useAsyncData(route.path, () => queryCollection("projects").path(route.path.replace("/portfolio", "/projects")).first());
@@ -13,15 +15,29 @@
 		ogImage: () => page.value?.image || "/default-social-card.jpg",
 		twitterImage: "/default-social-card.jpg",
 	});
+
+	// 3. COMBINED SUPER-POWER: Process image and position together cleanly
+	const heroStyle = computed(() => {
+		// Defensive check: if data hasn't arrived yet, return empty styles
+		if (!page.value?.heroImage) return {};
+
+		// Generate the optimized WebP URL using .value. safely
+		const optimizedUrl = img(page.value.heroImage, { format: "webp", quality: 80 });
+
+		return {
+			backgroundImage: `url(${optimizedUrl})`,
+			backgroundPosition: page.value.heroPosition || "center",
+		};
+	});
 </script>
 <template>
 	<div v-if="page">
-		<section class="section-main contained section-intro relative overflow-y-hidden bg-no-repeat bg-cover h-auto min-h-[80vh] items-end!" :style="{ backgroundImage: `url(${page.heroImage})`, backgroundPosition: `${page.heroPosition}` }">
+		<section class="section-main contained section-intro relative overflow-y-hidden bg-no-repeat bg-cover h-auto min-h-[80vh] items-end!" :style="heroStyle" role="img" :aria-label="`Featured image for ${page.title}`">
 			<div class="container z-2">
 				<div class="container-inner">
 					<p class="subheading">Portfolio Project</p>
 					<h1>{{ page.title }}</h1>
-					<p>{{ page.description }}</p>
+					<p class="mb-0!">{{ page.description }}</p>
 				</div>
 			</div>
 			<div class="absolute inset-0 bg-black/50 w-full h-full z-1"></div>
@@ -31,7 +47,7 @@
 				<div class="container-inner py-4!">
 					<ul class="flex items-center justify-center flex-wrap gap-2.5 list-none space-y-2.5">
 						<slot v-for="spec in page.specs" :key="spec">
-							<li class="text-xs text-white/90! bg-white/15 py-1 px-3 rounded-xl m-0!">
+							<li class="text-xs! text-white/90! bg-white/15 py-1 px-3 rounded-xl m-0!">
 								{{ spec }}
 							</li>
 						</slot>

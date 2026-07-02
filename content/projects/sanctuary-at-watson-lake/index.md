@@ -29,7 +29,7 @@ The client wanted a site that would reflect the beauty of the landscape for buye
 ::project-section-full
 ::half-half-blocks
 #half-image
-![Project Detail](/webdevjames-project-sanctuary-at-watson-lake-beauty.jpg)
+![Sanctuary at Watson Lake sunset at Granite Dells](/webdevjames-project-sanctuary-at-watson-lake-beauty.jpg)
 
 #half-title
 
@@ -42,7 +42,7 @@ Luckily, this area was easy to showcase. It's gorgeous landscape and active comm
 
 ::half-half-blocks{reverse=true}
 #half-image
-![Project Detail](/webdevjames-project-sanctuary-at-watson-lake-imagine.jpg)
+![Sanctuary at Watson Lake interactive site map](/webdevjames-project-sanctuary-at-watson-lake-imagine.jpg)
 
 #half-title
 
@@ -55,7 +55,7 @@ The interactive map invites users to select plot locations for their new dream h
 
 ::half-half-blocks
 #half-image
-![Project Detail](/webdevjames-project-sanctuary-at-watson-lake-convenient.jpg)
+![Sanctuary at Watson Lake downtown Prescott](/webdevjames-project-sanctuary-at-watson-lake-convenient.jpg)
 
 #half-title
 

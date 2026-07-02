@@ -27,12 +27,13 @@
 		<section class="section-main">
 			<div class="container">
 				<div class="container-inner">
-					<div class="current-project relative overflow-hidden bg-cover bg-center rounded-xl w-full" :style="{ backgroundImage: `url(${cpImage})` }" role="img" :aria-label="cpImageAlt">
-						<div class="current-project-content w-full h-auto bg-black/75 flex items-center justify-start">
+					<div class="current-project relative overflow-hidden rounded-xl w-full">
+						<NuxtImg :src="cpImage" :alt="cpImageAlt" format="webp" quality="80" loading="lazy" class="absolute inset-0 w-full h-full object-cover z-1" />
+						<div class="current-project-content relative w-full h-auto bg-black/75 flex items-center justify-start z-2">
 							<div class="current-project-content-inner p-6 md:p-12 lg:p-15 md:max-w-[50%] max-w-full">
 								<p class="subheading">Featured Project</p>
-								<h2>{{ cpTitle }}</h2>
-								<p>{{ cpDescription }}</p>
+								<h2 class="text-white">{{ cpTitle }}</h2>
+								<p class="text-white">{{ cpDescription }}</p>
 								<div class="button-wrap">
 									<NuxtLink :to="cpLink" class="button">
 										<span>View the Project</span>
