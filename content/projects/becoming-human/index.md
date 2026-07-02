@@ -36,7 +36,7 @@ Perhaps the most crucial aspect of the rebuild was ensuring that all aspects of 
 ### When in the world?
 
 #half-description
-An interactive and resource-heavy Timeline was created to highlight dates of discovery. This included a color-coded, interactive era of time with corresponding fossil discoveries in relation to epoch, environmental changes, and species present. Each discovery could be explored deeper for more information.
+An interactive and resource-heavy Timeline was created to highlight dates of discovery. This included a color-coded, interactive era of time with corresponding fossil discoveries in relation to epoch, environmental changes, and species present. Each discovery can be explored deeper for more information.
 ::
 
 

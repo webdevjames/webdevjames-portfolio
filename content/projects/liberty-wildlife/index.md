@@ -60,6 +60,6 @@ A newer, modern design was not the only reason to move forward for Liberty Wildl
 ### Up close and personal
 
 #half-description
-Another primary goal for the new site was to put a heavy focus on reaching the community. Educating, supporting and engaging people about the beauty and fragility of Arizona wildlife was paramount. The site provides easy access to injured wildlife drop-off, contact information, how-to's and what-to's regarding finding injured wildlife, and available bookings for Liberty Wildlife's facility and Animal Ambassadors.
+Another primary goal for the new site was to put a heavy focus on reaching the community. Educating, supporting, and engaging people about the beauty and fragility of Arizona wildlife was paramount. The site provides easy access to injured wildlife drop-off information, contact information, how-to's and what-to's regarding finding injured wildlife, and available bookings for Liberty Wildlife's facility and Animal Ambassadors.
 ::
 ::

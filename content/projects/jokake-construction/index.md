@@ -15,7 +15,7 @@ specs:
 ::project-section-contained
 ## Project Overview
 
-Jokake Construction came to us with the challenge of solidifying their online presence, retaining and obtaining the best contractors and employees in the industry, and showcasing their premier services in construction.
+Jokake Construction was looking to solidify their online presence, retain and obtain the best contractors and employees in the industry, and showcase their premier services in construction.
 
 The leadership team was solid, the company culture was amazing, they get involved in supporting the local community, and their work spoke for itself. Now they were ready to make that public knowledge.
 
@@ -33,7 +33,7 @@ The leadership team was solid, the company culture was amazing, they get involve
 ### Get to know Jokake
 
 #half-description
-Getting to know the team is what puts the heart in any business. These proud employees love what they do and wanted to encourage like-minded folks to apply. Their growing team was looking for the best while showcasing their outgoing and supportive nature. The Leadership and Careers pages were dedicated to individuals' personality, company culture, and quotes that matched their enthusiasm.
+Getting to know the team is what puts the heart in any business. These proud employees love what they do and wanted to encourage like-minded folks to apply. Their growing team was looking for the best candidates while showcasing their outgoing and supportive nature. The Leadership and Careers pages were dedicated to individuals' personality, company culture, and quotes that matched their enthusiasm.
 ::
 
 

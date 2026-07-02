@@ -15,7 +15,7 @@ specs:
 ::project-section-contained
 ## Project Overview
 
-Kornegay Design's leadership needed a website to reflect the modern and simple nature of their print design material. The end result was a site that was easy to navigate between pages, posts, and products. Users could also gather more information about any or all products. The featured large imagery showcases their iconic products in real applications and landscapes.
+Kornegay Design's leadership needed a website to reflect the modern and simple nature of their print design material. The end result was a site that was easy to navigate between pages, posts, and products. Users could also gather more information about any or all products. The featured large imagery showcase their iconic products in real applications and landscapes.
 
 The website would also need to include automation when possible - making a single file upload or text entry field accessible across WordPress templates and Custom Post Types. Automation was thoroughly considered before and throughout the design and development process - finding ways to either implement, improve, or reconsider based on the need.
 
@@ -33,7 +33,7 @@ The website would also need to include automation when possible - making a singl
 ### A concrete foundation
 
 #half-description
-Prior to the acquisition by Landscape Forms, Kornegay Design was founded by Larry Kornegay in 1997. The site design and architecture were built as a reflection of Larry's vision for his concrete designs - clean lines and elegant imagery - with gray tones matching a concrete color base. The website features the products, history, and helpful information to consumers.  
+Prior to the acquisition by Landscape Forms, Kornegay Design was founded by Larry Kornegay in 1997. Their old site was difficult to update and manage product changes. The new site design and architecture were built as a reflection of Larry's vision for his concrete designs - clean lines and elegant imagery - with gray tones matching a concrete color base. The website features the products, history, and helpful information to consumers. Best of all, it's now easy to manage!  
 ::
 
 
@@ -59,6 +59,6 @@ The quality of each cast was important to the messaging of the site. Showing the
 ### Breaking the mold
 
 #half-description
-When it came time to expand their offerings, a diverse group of artists were brought in to cast their own shadows. Kornegay Design now showcases two new artists - Ian McDonald and Claudia Issa - to usher in some fresh takes on a tradition built in concrete. The website required the ability to add new artists easily and to display Kornegay Design's new product offerings.
+When it came time to expand their offerings, a diverse group of artists were brought in to cast their own legacy. Kornegay Design now features two new artists - Ian McDonald and Claudia Issa - to usher in some fresh takes on a tradition built in concrete. The website required the ability to add new artists easily and to display Kornegay Design's new product offerings.
 ::
 ::

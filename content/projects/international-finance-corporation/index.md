@@ -32,7 +32,7 @@ Because the teams were already familiar with the WordPress platform, maintaining
 ### EDGE Buildings
 
 #half-description
-EDGE Buildings features dynamic green certification statistics from their managed API, showcases their primary directive (the EDGE App), and features EDGE Champions - EDGE certified companies that make strides in green building development. In addition, the site hosts a vast number of downloadable resources for leaders in the green market, an events calendar, and EDGE-approved certifier pricing.  
+EDGE Buildings features dynamic green certification statistics from their managed API, showcases their primary directive (the EDGE App), and features EDGE Champions - EDGE certified companies that make strides in green building development. In addition, the site hosts a vast number of downloadable resources for leaders in the green market, an event calendar, and EDGE-approved certifier pricing.  
 :project-button{link="https://edgebuildings.com/" text="Visit EDGE Buildings"} 
 ::
 

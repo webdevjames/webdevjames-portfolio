@@ -17,7 +17,7 @@ specs:
 ::project-section-contained
 ## Project Overview
 
-The client wanted a site that would reflect the beauty of the landscape for buyers' new homesite while stressing the importance of natural landscape preservation. The site would showcase the Granite Dells, hiking trails, convenience proximity and an interactive sitemap.
+The client wanted a site that would reflect the beauty of the landscape for buyers' new homesite while stressing the importance of natural landscape preservation. The site showcases property views of the Granite Dells, proximity to hiking trails and location conveniences, and an interactive sitemap of the community.
 
 **Note:** This project is currently in development. Please use the gateway credentials provided below:
 

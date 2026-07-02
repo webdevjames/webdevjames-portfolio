@@ -18,7 +18,7 @@ specs:
 
 Rosie's House was in need of a redesign after 10 years with their previous website. They wanted to retain WordPress as their CMS and Enfold as their parent theme (using the Avia Layout Builder). Their content management process was internally streamlined, but the design lacked a modern touch. With all of the good they do for the community, I was happy to be involved in helping build their future.
 
-The site is home to a variety of content types including events, program information, and donor opportunities. Each portion of the site needed to be a cohesive user experience and fully manageable by the marketing team. 
+The site is home to a variety of content types including events, program information, and donor opportunities. Each portion of the site needed to be a cohesive user experience and fully manageable by their marketing team. 
 
 :project-button{link="https://rosieshouse.org/" text="Visit Site"}
 ::
@@ -60,6 +60,6 @@ Rosie's House had the results to back up their impact. Since their founding, ove
 ### The talent behind the heart
 
 #half-description
-Rosie's House is staffed with people that genuinely care about kids. Their passion and talent for music has empowered them to serve those seeking music as a discipline. The website features these heroes on a dedicated page with biographies, categorization and a dedicated leadership section.
+Rosie's House is staffed with people that genuinely care about kids. Their passion and talent for music has empowered them to serve those seeking music as a discipline. The website features these heroes on a dedicated page with biographies, categorization, and a dedicated leadership section. These profiles are managed using Advanced Custom Fields ensuring each custom post displays perfectly inline.
 ::
 ::
