@@ -16,11 +16,18 @@
 				type: "application/ld+json",
 				innerHTML: JSON.stringify({
 					"@context": "https://schema.org",
-					"@type": "ResumePage",
-					"@id": "https://webdevjames.com/resume",
-					name: "Contact James Frazier (webdevjames)",
-					description: "The Resume page for James Frazier (webdevjames). James is Available for Agency Hire or Freelance Web Development and Design Services.",
+					"@type": "ProfilePage",
 					url: "https://webdevjames.com/resume",
+					mainEntity: {
+						"@type": "Person",
+						name: "James Frazier",
+						knowsAbout: ["Vue.js", "Nuxt", "Tailwind CSS", "WordPress", "Front-End Design"],
+						// Converted from a raw string into a structured data node
+						alumniOf: {
+							"@type": "EducationalOrganization",
+							name: "Collins College",
+						},
+					},
 				}),
 			},
 		],

@@ -14,11 +14,10 @@
 				type: "application/ld+json",
 				innerHTML: JSON.stringify({
 					"@context": "https://schema.org",
-					"@type": "PrivacyPage",
-					"@id": "https://webdevjames.com/privacy",
+					"@type": "WebPage",
+					url: "https://webdevjames.com/privacy",
 					name: "Privacy Policy for James Frazier (webdevjames)",
 					description: "The Privacy Policy Page Outlines Usage of this Website (webdevjames).",
-					url: "https://webdevjames.com/privacy",
 				}),
 			},
 		],

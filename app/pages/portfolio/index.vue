@@ -18,20 +18,26 @@
 		twitterImage: "/default-social-card.jpg",
 	});
 
-	useHead({
+	useHead(() => ({
 		script: [
 			{
 				type: "application/ld+json",
 				innerHTML: JSON.stringify({
 					"@context": "https://schema.org",
-					"@type": "PortfolioPage",
+					"@type": "CollectionPage",
+					url: "https://webdevjames.com/portfolio",
 					name: "Portfolio of James Frazier",
 					description: "The Portfolio Page for James Frazier (webdevjames). Agency and Freelance Front-End Web Developer and Designer.",
-					url: "https://webdevjames.com/portfolio",
+					// Connects this directory page directly to you as the creator
+					creator: {
+						"@type": "Person",
+						name: "James Frazier",
+						url: "https://webdevjames.com",
+					},
 				}),
 			},
 		],
-	});
+	}));
 </script>
 
 <template>

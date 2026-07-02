@@ -65,10 +65,9 @@
 				innerHTML: JSON.stringify({
 					"@context": "https://schema.org",
 					"@type": "ContactPage",
-					"@id": "https://webdevjames.com/contact",
+					url: "https://webdevjames.com/contact",
 					name: "Contact James Frazier (webdevjames)",
 					description: "The Contact Page for James Frazier (webdevjames). James is Available for Agency Hire or Freelance Web Development and Design Services.",
-					url: "https://webdevjames.com/contact",
 				}),
 			},
 		],

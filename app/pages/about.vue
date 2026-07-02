@@ -57,10 +57,14 @@
 				innerHTML: JSON.stringify({
 					"@context": "https://schema.org",
 					"@type": "AboutPage",
-					"@id": "https://webdevjames.com/about",
-					name: "About James Frazier (webdevjames)",
-					description: "The About Page for James Frazier (webdevjames). James is a Front-end Web Developer and Designer.",
 					url: "https://webdevjames.com/about",
+					mainEntity: {
+						"@type": "Person",
+						name: "James Frazier",
+						alternateName: "webdevjames",
+						jobTitle: "Front-End Web Designer & Developer",
+						url: "https://webdevjames.com",
+					},
 				}),
 			},
 		],
