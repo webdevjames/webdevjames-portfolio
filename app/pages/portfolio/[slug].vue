@@ -30,27 +30,28 @@
 
 	// 4. SCHEMA DATA: Wrapped in an arrow function closure to ensure it stays reactive
 	useHead(() => ({
-	       script: [
-	           {
-	               type: "application/ld+json",
-	               innerHTML: JSON.stringify({
-	                   "@context": "https://schema.org",
-	                   "@type": "ItemPage",
-	                   "url": `https://webdevjames.com/portfolio/${projectSlug}`,
-	                   "mainEntity": {
-	                       "@type": "CreativeWork",
-	                       "name": page.value?.title || "",
-	                       "description": page.value?.blurb || "",
-	                       "url": `https://webdevjames.com/portfolio/${projectSlug}`,
-	                       "author": {
-	                           "@type": "Person",
-	                           "name": "James Frazier",
-	                           "url": "https://webdevjames.com"
-	                       }
-	                   }),
-	           },
-	       ],
-	   }));
+		script: [
+			{
+				type: "application/ld+json",
+				innerHTML: JSON.stringify({
+					"@context": "https://schema.org",
+					"@type": "ItemPage",
+					url: `https://webdevjames.com/portfolio/${projectSlug}`,
+					mainEntity: {
+						"@type": "CreativeWork",
+						name: page.value?.title || "",
+						description: page.value?.blurb || "",
+						url: `https://webdevjames.com/portfolio/${projectSlug}`,
+						author: {
+							"@type": "Person",
+							name: "James Frazier",
+							url: "https://webdevjames.com",
+						},
+					},
+				}),
+			},
+		],
+	}));
 </script>
 <template>
 	<div v-if="page">
