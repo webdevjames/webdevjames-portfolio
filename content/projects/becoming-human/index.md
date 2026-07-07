@@ -20,7 +20,7 @@ Arizona State University's Institute of Human Origins (IHO) originally utilized 
 
 The IHO team's goal in budgeting and commissioning a rebuild of the site was to assess the existing data, provide a full restructuring of the existing content and sitemap, create a category-based "Pathways to Discovery", provide learning resources to ASU students, and reimagine their existing Timeline of discoveries.
 
-Perhaps the most crucial aspect of the rebuild was ensuring that all aspects of the site were available to the team to make changes, unlike previously.
+Perhaps the most crucial aspect of the rebuild was ensuring that all areas of the site were available to the team to make changes, unlike previously.
 
 :project-button{link="https://becominghuman.org/" text="Visit Site"}
 ::
