@@ -21,6 +21,7 @@
 			{ "name": "Node.js", "icon": "selfhst:node-js" },
 			{ "name": "Nuxt", "icon": "devicon:nuxt" },
 			{ "name": "Tailwind CSS", "icon": "devicon:tailwindcss" },
+			{ "name": "UIkit", "icon": "logos:uikit" },
 			{ "name": "Visual Studio Code", "icon": "devicon:vscode" },
 			{ "name": "Vue.js", "icon": "devicon:vuejs" },
 			{ "name": "Webpack", "icon": "devicon:webpack" }
