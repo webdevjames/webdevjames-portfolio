@@ -1,4 +1,4 @@
-# 🚀 webdevjames.com | Professional Portfolio
+# webdevjames.com | Professional Portfolio
 
 Welcome to the repository for the official professional portfolio and agency hub of **James Frazier (webdevjames)**. Built as a high-performance, single-page application and server-side rendered (SSR) experience, this site showcases over a decade of web development, custom theme architecture, and UI/UX engineering.
 
