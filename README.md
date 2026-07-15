@@ -57,3 +57,34 @@ Ensure you have [Node.js](https://nodejs.org/) (v18+ recommended) installed on y
 git clone [https://github.com/your-username/webdevjames-portfolio.git](https://github.com/your-username/webdevjames-portfolio.git)
 cd webdevjames-portfolio
 ```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the Local Development Server
+
+```bash
+npm run dev
+```
+
+Open http://localhost:3000 inside your browser to view the application live on localhost.
+
+### 4. Compile Production Builds & Testing
+
+To compile a minimized, highly optimized production build deployment payload:
+
+```bash
+npm run build
+```
+
+## Custom Asset Pipelines
+
+**Local Custom SVGs**
+If an icon asset is missing from open-source icon registries, dropping a raw vector design file into the `assets/icons/` folder automatically registers it into the compilation layer under the custom local module space.
+
+## License
+
+This project is proprietary and built exclusively as a professional presentation index. Feel free to review the code layout for implementation reference. All custom graphical assets, design elements, and case study copy remain copyright of James Frazier.
