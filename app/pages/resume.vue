@@ -44,8 +44,11 @@
 					<NuxtLink to="/contact" target="_self" class="button alt">
 						<span>Hire Me</span>
 					</NuxtLink>
-					<NuxtLink to="/James_Frazier_Resume_ATS.docx" target="_blank" class="button alt">
+					<NuxtLink to="/james-frazier-resume-ats.pdf" target="_blank" class="button alt">
 						<span>ATS-Friendly Resume</span>
+					</NuxtLink>
+					<NuxtLink to="/james-frazier-resume-designed.pdf" target="_blank" class="button alt">
+						<span>Standard Resume</span>
 					</NuxtLink>
 				</div>
 			</div>
@@ -116,8 +119,11 @@
 					<NuxtLink to="/contact" target="_self" class="button">
 						<span>Hire Me</span>
 					</NuxtLink>
-					<NuxtLink to="/James_Frazier_Resume_ATS.docx" target="_blank" class="button">
+					<NuxtLink to="/james-frazier-resume-ats.pdf" target="_blank" class="button">
 						<span>ATS-Friendly Resume</span>
+					</NuxtLink>
+					<NuxtLink to="/james-frazier-resume-designed.pdf" target="_blank" class="button">
+						<span>Standard Resume</span>
 					</NuxtLink>
 				</div>
 			</div>

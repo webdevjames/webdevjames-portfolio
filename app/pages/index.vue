@@ -93,7 +93,7 @@
 				<div class="info-blocks mt-4">
 					<RevealSection class="info-block text-left">
 						<h4>Sweating the <span class="text-blue-500!">small</span> stuff</h4>
-						<p>These are true passion projects. The less complex the scale, the more creative freedom is available for smaller budgets. Smaller scale sites have trended toward the arts, nonprofits and portfolio websites.</p>
+						<p>Small, visual sites are true passion projects. The less complex the scale, the more creative freedom is available for smaller budgets. Smaller scale sites have trended toward the arts, nonprofits and portfolio websites.</p>
 					</RevealSection>
 					<RevealSection delay="200ms" class="info-block text-left">
 						<h4>It's kind of a <span class="text-blue-500!">big</span> deal</h4>
