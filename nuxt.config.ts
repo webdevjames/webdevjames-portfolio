@@ -5,7 +5,49 @@ export default defineNuxtConfig({
 		head: {
 			htmlAttrs: { lang: "en" },
 			titleTemplate: "%s | James Frazier - webdevjames",
-			meta: [{ charset: "utf-8" }, { name: "viewport", content: "width=device-width, initial-scale=1" }, { name: "author", content: "James Frazier" }],
+			meta: [
+				{
+					charset: "utf-8",
+				},
+				{
+					name: "viewport",
+					content: "width=device-width, initial-scale=1",
+				},
+				{
+					name: "author",
+					content: "James Frazier",
+				},
+				{
+					name: "apple-mobile-web-app-title",
+					content: "webdev james",
+				},
+			],
+			link: [
+				{
+					rel: "icon",
+					type: "image/png",
+					href: "/favicon/favicon-96x96.png",
+					sizes: "96x96",
+				},
+				{
+					rel: "icon",
+					type: "image/svg+xml",
+					href: "/favicon/favicon.svg",
+				},
+				{
+					rel: "shortcut icon",
+					href: "/favicon/favicon.ico",
+				},
+				{
+					rel: "apple-touch-icon",
+					href: "/favicon/apple-touch-icon.png",
+					sizes: "180x180",
+				},
+				{
+					rel: "manifest",
+					href: "/favicon/site.webmanifest",
+				},
+			],
 		},
 	},
 
