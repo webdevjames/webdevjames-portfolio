@@ -82,6 +82,7 @@
 							<li><strong class="text-blue-500">Leadership & Scoping:</strong> Drive project accuracy by assisting in technical engineering estimates, authoring structured internal documentation, and conducting comprehensive technical training seminars for non-technical clients.</li>
 							<li><strong class="text-blue-500">DevOps Standardizations:</strong> Revolutionized internal team workflows by deploying customized Webpack configurations, successfully standardizing local development environments and cutting code initialization time.</li>
 							<li><strong class="text-blue-500">Asset Optimization:</strong> Create and optimize production-ready vector assets and digital imagery via Photoshop and Illustrator, improving overall site performance and Core Web Vitals.</li>
+							<li><strong class="text-blue-500">Performance Tracking:</strong> Initialize Google Analytics (GA4) tracking and reporting in combination with corresponding Google Tag Manager (GTM) event tracking.</li>
 							<li><strong class="text-blue-500">Email Engineering:</strong> Build modular, responsive HTML email templates for MailChimp and Campaign Monitor, ensuring flawless cross-client rendering through rigorous Litmus testing.</li>
 						</ul>
 					</div>

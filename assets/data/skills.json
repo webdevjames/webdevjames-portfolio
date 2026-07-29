@@ -34,6 +34,8 @@
 			{ "name": "cPanel", "icon": "devicon:cpanel" },
 			{ "name": "Elementor", "icon": "simple-icons:elementor" },
 			{ "name": "Enfold", "icon": "custom:icon-enfold" },
+			{ "name": "Google Analytics", "icon": "logos:google-analytics" },
+			{ "name": "Google Tag Manager", "icon": "logos:google-tag-manager" },
 			{ "name": "Gutenberg", "icon": "simple-icons:gutenberg" },
 			{ "name": "Local", "icon": "simple-icons:local" },
 			{ "name": "MAMP Pro", "icon": "simple-icons:mamp" },
